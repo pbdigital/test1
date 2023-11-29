@@ -1,5 +1,4 @@
 <?php
-exit;
 if($_GET["delete_get_started"]){
     delete_user_meta(get_current_user_id(), "done_gets_started");
     wp_redirect("dashboard-dev");
