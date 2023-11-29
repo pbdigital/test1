@@ -1,0 +1,282 @@
+body.directory.groups .container {
+  max-width: 1090px;
+}
+
+body.directory.groups .container .entry-header {
+  display: none;
+}
+
+body.directory.groups .container .bp-feedback.bp-messages {
+  margin-top: 40px;
+}
+
+body.directory.groups .container .buddypress-wrap {
+  min-height: 100vh;
+}
+
+body.directory.groups .container .buddypress-wrap form.bp-dir-search-form:before {
+  opacity: 1;
+  top: 11px;
+  color: #6B6F72;
+}
+
+body.directory.groups .container .buddypress-wrap .subnav-filters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body.directory.groups .container .buddypress-wrap .subnav-filters {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+body.directory.groups .container .buddypress-wrap .subnav-filters h1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #37394A;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  body.directory.groups .container .buddypress-wrap .subnav-filters h1 {
+    margin: 0px 0px 10px 0px;
+  }
+}
+
+body.directory.groups .container .buddypress-wrap .subnav-filters .subnav-search .bp-search {
+  float: none;
+}
+
+body.directory.groups .container .buddypress-wrap .subnav-filters .subnav-search .bp-search #dir-groups-search {
+  height: 48px !important;
+  width: 360px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 600px) {
+  body.directory.groups .container .buddypress-wrap .subnav-filters .subnav-search .bp-search #dir-groups-search {
+    width: calc(100% - 10px);
+  }
+}
+
+body.directory.groups .container .buddypress-wrap .subnav-filters .subnav-search .bp-search #dir-groups-search::-ms-input-placeholder {
+  color: #BFBFBF;
+}
+
+@media only screen and (max-width: 600px) {
+  body.directory.groups .container .buddypress-wrap .subnav-filters .subnav-search {
+    width: 100%;
+  }
+}
+
+body.directory.groups .container .buddypress-wrap .subnav-filters:after {
+  display: none;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list {
+  -ms-grid-columns: 1fr 1fr 1fr !important;
+      grid-template-columns: 1fr 1fr 1fr !important;
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 40px;
+  grid-column-gap: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list {
+    -ms-grid-columns: 1fr 1fr !important;
+        grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list {
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+  }
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li {
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  min-height: 374px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li[data-col="0"] .bs-group-cover {
+  background: url("../img/groups/background/purple.png");
+  height: 100px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li[data-col="1"] .bs-group-cover {
+  background: url("../img/groups/background/red.png");
+  height: 100px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li[data-col="2"] .bs-group-cover {
+  background: url("../img/groups/background/blue.png");
+  height: 100px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap {
+  padding: 0px 0px 28px 0px !important;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .bs-group-cover {
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px 8px 0px 0px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .bs-group-cover a img {
+  opacity: 0;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item-avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: -40px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item-avatar .group-avatar-wrap img {
+  border: 4px solid #FFFFFF;
+  border-radius: 12px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-item-wrap .groups-title {
+  width: 100%;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-item-wrap .groups-title a {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #5D53C0;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-item-wrap .item-block .item-meta-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 14px;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-item-wrap .item-block .item-meta-wrap P {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6B6F72;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-item-wrap .item-block .item-meta-wrap P span {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #6B6F72;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-footer-wrap .group-members-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-button {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  padding: 12px 10px !important;
+  border: 1px solid #5D53C0 !important;
+  border-radius: 100px !important;
+  font-family: 'Mikado' !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  letter-spacing: 0.04em !important;
+  text-transform: uppercase !important;
+  color: #5D53C0 !important;
+  background: none !important;
+  min-width: 200px !important;
+  width: auto;
+  margin: 15px auto 0px auto !important;
+}
+
+body.directory.groups .container .buddypress-wrap .grid.bp-list.groups-list > li .list-wrap .item .group-button:before {
+  content: " ";
+  background: url("../img/groups/background/group-check.png");
+  width: 17px;
+  height: 12px;
+  margin-right: 14px;
+}
+
+body .buddypress-wrap ul.bp-list.groups-dir-list.grid .group-avatar-wrap {
+  margin-left: 0px !important;
+}
+
+@media only screen and (max-width: 375px) {
+  body .bb-model-footer .button, body #buddypress .bb-model-footer a.button, body .bb-model-footer .button, body .bb-model-footer a.button {
+    min-height: 28px;
+    line-height: 28px;
+  }
+}
+/*# sourceMappingURL=groups.css.map */

@@ -1,0 +1,1241 @@
+$medium: "only screen and (max-width : 1024px)";
+$tabletlarge: "only screen and (max-width : 900px)";
+$tablet: "only screen and (max-width : 768px)";
+$mobilelarge: "only screen and (max-width : 600px)";
+$mobile: "only screen and (max-width : 480px)";
+$mobilesmall: "only screen and (max-width : 375px)";
+$small: "only screen and (max-width : 320px)";
+.page-template-school-onboarding{
+    aside, #masthead, footer{
+        display:none;
+    }
+
+    #page{
+        margin:0px;
+        #content{
+            padding:0px;
+            .container{
+                max-width: 100%;
+                padding:0px;
+                .gform_validation_errors{
+                    display:none;
+                }
+                .gfield_label{
+                    .gfield_required{
+                        display: none;
+                    }
+                }
+
+                .gf_page_steps{
+                    height:80px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #FFFFFF;
+                    position: relative;
+                    .gf_step_last{
+                        display:none !important;
+                    }
+
+                    .slick-arrow{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &.slick-prev{
+                            position: absolute;
+                            left:10px;
+                        }
+                        &.slick-next{
+                            position: absolute;
+                            right:10px;
+                            left:auto;
+                        }
+                    }
+                    @media #{$medium} {
+                        padding-right:60px;
+                        padding-left:60px;
+                    }
+                    @media #{$mobile} {
+                        padding-right:50px;
+                        padding-left:50px;
+                    }
+                }
+                .gform_body.gform-body{
+                    overflow: hidden;
+                }
+                .gform_page{
+                    position: relative;   
+                    width:100%;
+                    max-width:800px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+                    margin:auto;
+                    padding:48px 100px;
+                    margin-top:60px;
+                    @media #{$tablet} {
+                        padding:30px;
+                        margin: 30px auto;
+                        width: calc(100% - 30px);
+                    }
+
+
+                    .gform_ajax_spinner{
+                        position: absolute;
+                        right:10px;
+                        top:10px;
+                    }
+                    
+                    #field_2_91, #field_2_93{
+                            
+                        .ginput_container{
+                            margin-bottom:17px !important;
+                            position: relative;
+                            &:before{
+                                position: absolute;
+                                content: " ";
+                                background-image:url("../img/family-onboarding/lock.svg");
+                                width:24px;
+                                height:24px;
+                                top:10px;
+                            }
+                            #input_2_91, #input_2_93{
+                                width:100%;
+                                padding-left:40px !important;
+                            }
+                        }
+                    }
+
+                    &#gform_page_1_1{
+                        max-width:640px;
+                        padding:48px 70px;
+
+                        @media #{$mobile} {
+                            padding:30px;
+                        }
+
+                        .gf-custom-navigation{
+                            opacity: 0;
+                            visibility: hidden;
+                            height: 0px;
+                            width:0px;
+                        }
+
+                        .gform_next_button{
+                            margin:0px auto 0px auto;
+                        }
+                        .top-progress-tracker{
+                            display: none;
+                        }
+                    }
+                    &#gform_page_1_5{
+                    
+                    }
+                    &#gform_page_1_5{
+                        .skip-and-submit-buttons{
+                            margin-top:40px;
+                        }
+                        .ginput_full, .ginput_left, .ginput_right{
+                            margin-bottom:30px;
+                        }
+                        .address-fields{
+                            margin-top:30px;
+                        }
+                        .gfield--width-full{
+                            margin-bottom:20px;
+                            position: relative;
+                            
+                        }
+                        .skip-and-submit-buttons{
+                            .btn-submit{
+                                margin-bottom:30px
+                            }
+                        }
+                        .validation_message.gfield_validation_message{
+                            padding:2px 10px;
+                        }
+                        .divider{
+                            border-bottom: 1px solid #E6E4F6;
+                            margin-bottom: 40px;
+                            background:none;
+                        }
+                    }
+
+                    &#gform_page_1_6{
+                        label{
+                            display:none;
+                        }
+                        .ginput_container{
+                            margin-bottom:30px;
+                        }
+                        h3{
+                            margin-bottom:30px;
+                            @media #{$mobile} {
+                                line-height: 29px;
+                            }
+                        }
+                        .phonenumber{
+                            .ginput_container{
+                                display: flex;
+                                .phone-flag{
+                                    border-bottom: 2px solid #EFF0F5;
+                                    width: 60px;
+                                    margin-right: 17px;
+                                    display: flex;
+                                    align-items: center;
+                                    img{
+                                        margin-right:10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    &#gform_page_1_7{
+                        h3{
+                            line-height: 32px;
+                        }
+                        .divider{
+                            margin-bottom:30px;
+                        }
+                        p{
+                            line-height: 24px;
+                        }
+                        .facial-features-container{
+                            display: grid;
+                            grid-template-columns: 1fr 1fr;
+                            grid-column-gap:20px;
+                            margin-bottom:30px;
+                            margin-top:30px;
+
+                            @media #{$mobilesmall} {
+                                grid-template-columns: 1fr;
+                                grid-row-gap:20px;
+                            }
+                            
+                            label{
+                                display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                justify-content: center;
+                                background: rgba(93, 83, 192, 0.05);
+                                border: 2px solid #E6E4F6;
+                                border-radius: 6px;
+                                position:relative;
+                                height: 220px;
+                                &.active{
+                                    border: 2px solid #5D53C0;
+                                }
+                                input[type=radio]{
+                                    position: absolute;
+                                    opacity: 0;
+                                    visibility: hidden;
+                                    
+                                    +.ck{
+                                        width:24px;
+                                        height:24px;
+                                        background-image:url("../img/facial-expression-unchecked.png");
+                                        top:14px;
+                                        right:14px;
+                                        position: absolute;
+                                    }
+                                    &:checked + .ck{
+                                        background-image:url("../img/facial-expression-check.png")
+                                        
+                                    }
+                                    
+                                }
+                                img{
+                                    max-width: 99px;
+                                }
+                                .text{
+                                    font-family: 'Mikado';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    text-align: center;
+                                    color: #000000;
+                                    margin-top:25px;
+                                }
+                            }
+                        }
+                    }
+
+                    &#gform_page_1_8{
+                        p{
+                            line-height: 24px;
+                        }
+                        .welcome-email-container{
+                            .wp-editor-container{
+                                border: none;
+                                margin-bottom:40px;
+                            }
+                            .tab-menu{
+                                border-bottom:2px solid #EFF0F5;
+                                display: flex;
+                                a{
+                                    font-family: 'Mikado';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 24px;
+                                    color: #6B6F72;
+                                    margin-right:40px;
+                                    padding-bottom:11px;
+                                    margin-bottom: -2px;
+                                    &.active{
+                                        color: #5D53C0;
+                                        border-bottom:3px solid #5D53C0;
+                                    }
+                                }
+                            }
+                            .tabs{
+                                .tab-content{
+                                    display:none;
+                                    &.active{
+                                        display:block
+                                    }
+                                    .mce-container-body{
+                                        .mce-toolbar,.mce-toolbar-grp, .mce-statusbar{
+                                            display:none;
+                                        }
+                                        iframe{
+                                            border: 2px solid #E6E4F6;
+                                            border-radius: 12px;
+                                            min-height: 400px;
+                                            padding:0px 0px 0px 15px;
+                                            &#teacher_body_greetings_ifr, &#student_body_greetings_ifr{
+                                                max-height: 60px;
+                                                min-height: auto;
+                                            }
+                                        }
+                                        
+                                    }
+                                    .body2-disabled{
+                                        border: 2px solid #E6E4F6;
+                                        border-radius: 12px;
+                                        padding:15px;
+                                        margin-bottom:40px;
+                                    }
+                                    .wp-editor-tools{
+                                        display:none;
+                                    }
+
+                                    h3{
+                                        margin:40px 0px 10px 0px;
+                                        line-height: 32px;
+
+                                        @media #{$mobile} {
+                                            line-height: 27px;
+                                        }
+                                    }
+                                    .email-template{
+                                        margin-top:40px;
+                                        label{
+                                            display: block;
+                                            margin-bottom:10px;
+                                        }
+                                        input{
+                                            width:100%;
+                                            font-size:16px;
+                                        }
+                                        .subject{
+                                            margin-bottom:40px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .skip-and-submit-buttons{
+                            margin-top:40px;
+                        }
+                        label{
+                            line-height: 32px;
+                        }
+                    }
+
+                    &#gform_page_1_9{
+                        .import-template{
+                            padding:25px 20px;
+                            background: #F8F7FF;
+                            border: 2px solid #E6E4F6;
+                            border-radius: 6px;
+                            display: flex;
+                            align-items: center;
+                            margin-bottom:40px;
+                            @media #{$mobile} {
+                                flex-direction: column;
+                                .text{
+                                    text-align: center !important;
+                                }
+                                .button-container{
+                                    margin-top:20px;   
+                                    text-align: center;                                
+                                    a{
+                                        font-size:12px !important;
+                                        margin:auto;
+                                    }
+                                }
+                            }
+                            .text{
+                                font-family: 'Mikado';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 20px;
+                                text-align: left;
+                                color: #37394A;
+                                flex:1;
+                            }
+                            .button-container{
+                                width:240px;                                
+                                a{
+                                    padding:12px 20px;
+                                    width:100%;
+                                    font-family: 'Mikado';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    line-height: 20px;
+                                    letter-spacing: 0.08em;
+                                    text-transform: uppercase;
+                                    color: #5D53C0;
+                                    border: 1px solid #5D53C0;
+                                    border-radius: 100px;
+                                }
+                            }
+                            
+                        }
+                        .import-teachers-container{
+                            .imported-teachers{
+                                display: none;
+                                .message{
+                                    border: 1px solid #B0D178;
+                                    border-radius: 6px;
+                                    margin:30px 0px;
+                                    display: flex;
+                                    background:#F8F7FF;
+                                    padding:0px;
+                                    .icon{
+                                        border-radius: 6px 0px 0px 6px;
+                                        background: #B0D178;
+                                        width:50px;
+                                        height:50px;
+                                        display:flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                    }
+                                    .text{
+                                        flex:1;
+                                        font-family: 'Mikado';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 16px;
+                                        line-height: 22px;
+                                        color: #37394A;
+                                        padding-left:20px;
+                                        display: flex;
+                                        align-items: center;
+                                    }
+                                }
+                                .list{
+                                    border: 2px solid #E6E4F6;
+                                    border-radius: 12px 12px 0px 0px;
+                                    margin-bottom:40px;
+                                    .heading{
+                                        font-family: 'Mikado';
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        font-size: 14px;
+                                        line-height: 18px;
+                                        text-transform: uppercase;
+                                        color: #000000;
+                                        display: grid;
+                                        grid-template-columns: 210px 1fr;
+                                        padding:0px 40px;
+                                        align-items: center;
+                                        background: #F8F7FF;
+                                        height: 60px;
+                                        @media #{$mobile} {
+                                            .email{
+                                                display: none !important;
+                                            }
+                                        }
+                                    }
+                                    .items{
+                                        padding:20px;
+                                        .item{
+                                            display: grid;
+                                            grid-template-columns: 210px 1fr;
+                                            font-family: 'Mikado';
+                                            font-style: normal;
+                                            font-weight: 400;
+                                            font-size: 16px;
+                                            line-height: 20px;
+                                            color: #37394A;
+                                            padding:20px;
+                                            margin-bottom:10px;
+                                            border: 1px solid #E6E4F6;
+                                            border-radius: 6px; 
+
+                                            @media #{$mobile} {
+                                                grid-template-columns: 1fr;
+                                                grid-row-gap: 10px;
+                                                text-align: center;
+                                            }
+                                            
+                                            .email{
+                                                line-height: 22px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        #import-teachers{
+                            margin-bottom:40px;
+                        }
+                        .gform_page_footer{
+                            margin-top:100px;
+                        }
+                        @media #{$mobile} {
+                            .btn-import{
+                                margin:auto;
+                            }
+                            button{
+                                margin:auto;
+                            }
+                            
+                        }
+                        .dz-progress{
+                            display: none;
+                        }
+ 
+                    }
+
+                    &#gform_page_1_10{
+                        .gform_page_fields{
+                            min-height: 504px;
+                            display: flex;
+                            align-items: center;
+                            .spinner{
+                                text-align: center;
+                                animation: spin 2s linear infinite;
+                            }
+                            p{
+                                font-family: 'Mikado';
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 20px;
+                                line-height: 32px;
+                                text-align: center;
+                                color: #37394A;
+                                margin-top:30px;
+                            }
+                        }
+
+                        .gform_page_footer{
+                            opacity: 0;
+                            visibility: hidden;
+                            height: 0px;
+                            width:0px;
+                        }
+                    }
+
+                    &:not(#gform_page_1_1){
+                        .gform_page_footer{
+                            input{
+                                opacity: 0;
+                                visibility: hidden;
+                                width:0px;
+                                height:0px;
+                                position: absolute;
+                            }
+                            .gf-custom-navigation{
+                                display: flex;
+                                position: absolute;
+                                right:20px;
+                                bottom:20px;
+                                button{
+                                    background:none;
+                                    border:none;
+                                    padding:0px;
+                                    margin:0px 1px 0px 0px;
+                                    min-width: auto;
+                                }
+                            }
+                        }
+                        
+                    }
+
+                    &#gform_page_1_2{
+                        .btn-submit{
+                            margin-top:20px;
+                            margin-bottom:130px;
+
+                            @media #{$mobile} {
+                                margin-left:auto;
+                                margin-right:auto;
+                            }
+                        }
+                        h3{
+                            margin-top:47px;
+
+                            @media #{$mobile} {
+                                line-height: 29px;
+                            }
+                        }
+                    }
+
+                    &#gform_page_1_4{
+                        h3{
+                            margin-bottom:20px;
+                        }
+                        
+                        p{
+                            line-height: 24px;
+                        }
+                        
+                    }
+
+                    
+                    .gform_previous_button.button.gform_image_button, 
+                    .gform_next_button.button.gform_image_button{
+                        padding: 0px;
+                        border: none;
+                        border-radius: 0px;
+                    }
+
+                    h2{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 32px;
+                        line-height: 40px;
+                        text-align: center;
+                        color: #37394A;
+
+                        @media #{$mobile} {
+                            line-height: 32px;
+                        }
+                    }
+                    p{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #37394A;
+                        margin:0px;
+                    }
+
+                    .checklist{
+                        margin:0px;
+                        padding:0px;
+                        li{
+                            margin:0px;
+                            padding:0px;
+                            font-family: 'Mikado';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 28px;
+                            color: #37394A;
+                            list-style: none;
+                            position: relative;
+                            padding-left:34px;
+                            margin-top:20px;
+                            &:first-child{
+                                margin-top:0px;
+                            }
+                            &:before{
+                                content: " ";
+                                width:9px;
+                                height:14px;
+                                background-image:url("../img/checklist-li.png");
+                                background-size:cover;
+                                background-position: center;
+                                position: absolute;
+                                left:0px;
+                                height:24px;
+                                width:24px;
+                            }
+                        }
+                    }
+
+                    .gform_page_footer{
+                        padding:0px;
+                        margin:38px 0px 0px 0px;
+                    }
+
+                    .gfield_label, h3, .ginput_left label, .ginput_right label, .welcome-email-container label{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 20px;
+                        line-height: 40px;
+                        color: #37394A;
+                        margin:0px;
+                    }
+                     
+                    .ginput_container,
+                    .ginput_full, 
+                    .ginput_left, .ginput_right{
+                        input[type=text], select, input[type=email]{
+                            border:none;
+                            border-bottom:2px solid #EFF0F5;
+                            padding:0px;
+                            border-radius: 0px;
+                            font-family: 'Mikado';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 40px;
+                        }
+                    }
+
+                    input[type=text], input[type=password]{
+                        border:none;
+                        border-bottom:2px solid #EFF0F5;
+                        padding:0px;
+                        border-radius: 0px;
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 40px;
+                    }
+
+                    .skip-and-submit-buttons{
+                        display: flex;
+
+                        
+                        button{
+                            margin-right:10px;
+                            &:last-child{
+                                margin-right: 0px;
+                            }
+                        }
+
+                        @media #{$mobile} {
+                            display: grid;
+                            grid-template-columns: 1fr;
+                            grid-row-gap: 15px;
+                            margin-bottom:30px;
+
+                            button{
+                                margin-right:0px;
+                            }
+                        }
+                        
+                    }
+
+                    .top-progress-tracker{
+                        position: absolute;
+                        top:0px;
+                        z-index: 1;
+                        left:0px;
+                        width:100%;
+                        background: rgba(242, 169, 82, 0.25);
+                        box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+                        height: 6px;
+                        .progress{
+                            left:0px;
+                            top:0px;
+                            z-index: 2;
+                            background: #F2A952;
+                            box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+                            height: 6px;
+                        }
+                    }
+
+                    .address-fields{
+                        .ginput_address_line_1, 
+                        .ginput_address_line_2{
+                            label{
+                                display:none
+                            }
+                        }
+                    }
+
+                    
+                    .divider{
+                        background: #EFF0F5;
+                        width:100%;
+                        height:2px;
+                    }
+
+                    .gfield_description.validation_message.gfield_validation_message{
+                        @media #{$mobile} {
+                            font-size: 12px;
+                            line-height: 20px;
+                            padding: 8px 10px;
+                        }
+                    }
+
+                    label+[aria-invalid=true], label+input[type=text]{
+                        color:#37394a
+                    }
+                }
+
+                .gf_step{
+                    display: flex !important;
+                    align-items: center  !important;
+                    justify-content: center !important;
+                    position: relative !important;
+                    &:after{
+                        content: " ";
+                        width:9px;
+                        height:14px;
+                        background-image:url("../img/angle-right.png");
+                        background-size:cover;
+                        background-position: center;
+                        position: absolute;
+                        right:-20px;
+                    }
+                    &:nth-last-child(2){
+                        &:after{
+                            display:none
+                        }
+                    }
+ 
+                    .gf_step_number{
+                        border: 1px solid #E6E4F6;
+                        background:none;
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #6B6F72;
+                        width:28px !important;
+                        height:28px !important;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        &:after{
+                            left:-1px;
+                            top:-1px;
+                        }
+                    }
+                    .gf_step_label{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 20px;
+                        display: flex;
+                        align-items: center;
+                        color: #37394A;
+                    }
+                    &.gf_step_active{
+                        .gf_step_number{
+                            border: 1px solid #5D53C0;
+                            color: #5D53C0;
+                        }
+                        .gf_step_label{
+                            color: #5D53C0;
+                        }
+                    }
+                    &.gf_step_completed{
+                        .gf_step_number:before{
+                            background-color: #5D53C0 !important;
+                            border: 2px solid #5D53C0;
+                            width: 28px;
+                            height: 28px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+
+                .slick-slide{
+                    .gf_step{
+                        &:after{
+                            right:-5px;
+                        }
+                    }
+                }
+
+                .dropzone{
+                    .dz-default{
+                        background: rgba(93, 83, 192, 0.05);
+                        border: 2px dashed #E6E4F6;
+                        border-radius: 6px;
+                        min-height: 300px !important;
+                        min-width: 100% !important;
+                        .dz-button:before{
+                            display:none;
+                        }
+                        .custom-button-uploader{
+                            .text{
+                                font-family: 'Mikado';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #37394A;
+                                text-transform: initial;
+                                margin:20px 0px 8px 0px;
+                                b{
+                                    font-weight: 500;
+                                }
+                            }
+                            .size-limit{
+                                font-family: 'Mikado';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 24px;
+                                text-align: center;
+                                color: #37394A;
+                                text-transform: initial;
+                            }
+                        }
+                    }
+                    &.dz-started{
+                        .custom-button-uploader{
+                            display: none;
+                        }
+                        .dz-preview{
+                            position: absolute;
+                            width: 100%;
+                            min-height: 300px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
+
+                .hide-field{
+                    margin:0px !important;
+                    padding:0px !important;
+                    .ginput_container, .gfield_label{
+                        position: absolute !important;
+                        opacity: 0 !important;
+                        visibility: hidden !important;
+                        height: 0px !important;
+                        width: 0px !important;
+                    }
+                    &.facial-features-container{
+                        display: flex !important;
+                    }
+                }
+                
+            }
+
+            .settings-selected-item{
+                background: #F8F7FF;
+                border: 1px solid #5D53C0;
+                border-radius: 8px;
+                padding: 10px 20px;
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #5D53C0;
+            }
+
+            .top-tooltip{
+                display: flex;
+                position: absolute;
+                right: 0px;
+                top:-35px;
+                h2{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    color: #37394A;
+                    flex:1;
+                    margin:0px;
+                    text-align: left;
+                }
+                > span{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #5D53C0;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    cursor:pointer;
+                    svg{
+                        margin-right:8px;
+                    }
+                    .tooltip{
+                        position: absolute;
+                        display: none;
+                        background: #37394A;
+                        border-radius: 16px;
+                        padding:20px;
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 22px;
+                        align-items: center;
+                        text-align: center;
+                        color: #FFFFFF;
+                        max-width: 320px;
+                        top: 31px;
+                        min-width: 320px;
+                        right: 0px;
+                        &:after{
+                            content: " ";
+                            width:24px;
+                            height:24px;
+                            background:#37394A;
+                            position: absolute;
+                            top: -2px;
+                            transform: rotate(45deg);
+                            right: 18px;
+                        }
+                    }
+                    &:hover{
+                        .tooltip{
+                            display: flex;
+                        }
+                    }
+                }
+            }
+        }
+
+
+        button, input[type=button]{
+            background: #B0D178;
+            border-color:#B0D178;
+            border-radius: 100px;
+            font-family: 'Mikado';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 200px;
+            min-height: 56px;
+        }
+        .btn-skip, .btn-test-email, .btn-preview-email{
+            font-family: 'Mikado';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #5D53C0;
+            border: 1px solid #E6E4F6;
+            background:#FFFFFF;
+        }
+        .btn-test-email, .btn-preview-email{
+            border-color: #5D53C0;
+            min-width: 190px;
+            padding:0px;
+        }
+    }
+
+    #send-test-email-modal, #preview-email-modal{
+        .modal-content{
+            width:600px;
+            box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+            border-radius: 24px;
+            position: relative;
+            padding: 60px 80px;
+
+            @media #{$mobile} {
+                padding: 50px 20px;
+            }
+
+            .close{
+                position: absolute;
+                top:20px;
+                right:20px;
+                background:none;
+                padding:0px;
+                margin:0px;
+                min-width: auto;
+                border:none;
+                min-height: 24px;
+                min-width: 24px;
+            }
+            h2{
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 36px;
+                text-align: center;
+                color: #5D53C0;
+                margin-bottom:40px
+            }
+            p{
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+                color: #37394A;
+
+                @media #{$mobile} {
+                    text-align:center;
+                    line-height: 27px;
+                }
+            }
+            div{
+                margin:30px 0px 40px 0px;
+                label{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 26px;
+                    text-align: left;
+                    color: #37394A;
+                    display:block;
+                }
+                input{
+                    border: 2px solid #E6E4F6;
+                    border-radius: 12px;
+                    width:100%;
+                    height:60px;
+                }
+            }
+            button{
+                margin:auto
+            }
+        }
+        
+    }
+
+    #preview-email-modal{
+        .modal-content{
+            padding:0px;
+            width: 640px;
+            p{
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 150%;
+                letter-spacing: 0.2px;
+                color: #37394A;
+            }
+        }
+    }
+
+    ::placeholder {
+        font-family: 'Mikado';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 40px;
+        color: rgba(191, 191, 191, 0.5);
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .frm-send-test-email{
+        label.error{
+            font-size: 13px !important;
+            margin-top: 10px;
+            font-weight: normal !important;
+            color: #b8132c !important;
+        }
+    }
+}
+
+@font-face {
+font-family: "Mikado";
+src: url("../fonts/MikadoMedium.eot");
+src: url("../fonts/MikadoMedium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoMedium.woff2") format("woff2"), url("../fonts/MikadoMedium.woff") format("woff"),
+    url("../fonts/MikadoMedium.ttf") format("truetype"), url("../fonts/MikadoMedium.svg#MikadoMedium") format("svg");
+font-weight: 500;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Mikado";
+src: url("../fonts/MikadoLight.eot");
+src: url("../fonts/MikadoLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoLight.woff2") format("woff2"), url("../fonts/MikadoLight.woff") format("woff"),
+    url("../fonts/MikadoLight.ttf") format("truetype"), url("../fonts/MikadoLight.svg#MikadoLight") format("svg");
+font-weight: 300;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Mikado";
+src: url("../fonts/MikadoBlack.eot");
+src: url("../fonts/MikadoBlack.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoBlack.woff2") format("woff2"), url("../fonts/MikadoBlack.woff") format("woff"),
+    url("../fonts/MikadoBlack.ttf") format("truetype"), url("../fonts/MikadoBlack.svg#MikadoBlack") format("svg");
+font-weight: 900;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Mikado";
+src: url("../fonts/MikadoBold.eot");
+src: url("../fonts/MikadoBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoBold.woff2") format("woff2"), url("../fonts/MikadoBold.woff") format("woff"),
+    url("../fonts/MikadoBold.ttf") format("truetype"), url("../fonts/MikadoBold.svg#MikadoBold") format("svg");
+font-weight: bold;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Mikado";
+src: url("../fonts/MikadoRegular.eot");
+src: url("../fonts/MikadoRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoRegular.woff2") format("woff2"), url("../fonts/MikadoRegular.woff") format("woff"),
+    url("../fonts/MikadoRegular.ttf") format("truetype"), url("../fonts/MikadoRegular.svg#MikadoRegular") format("svg");
+font-weight: normal;
+font-style: normal;
+font-display: swap;
+}
+
+@font-face {
+font-family: "Mikado Ultra";
+src: url("../fonts/MikadoUltra.eot");
+src: url("../fonts/MikadoUltra.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoUltra.woff2") format("woff2"), url("../fonts/MikadoUltra.woff") format("woff"),
+    url("../fonts/MikadoUltra.ttf") format("truetype"), url("../fonts/MikadoUltra.svg#MikadoUltra") format("svg");
+font-weight: 900;
+font-style: normal;
+font-display: swap;
+}
+
+
+.mce-content-body{
+    font-family: 'Mikado';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6B6F72;
+    a{
+        color:#5D53C0
+    }
+}
+

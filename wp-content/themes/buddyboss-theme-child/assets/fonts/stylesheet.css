@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Mikado';
+    src: url('MikadoMedium.eot');
+    src: url('MikadoMedium.eot?#iefix') format('embedded-opentype'),
+        url('MikadoMedium.woff2') format('woff2'),
+        url('MikadoMedium.woff') format('woff'),
+        url('MikadoMedium.ttf') format('truetype'),
+        url('MikadoMedium.svg#MikadoMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mikado';
+    src: url('MikadoLight.eot');
+    src: url('MikadoLight.eot?#iefix') format('embedded-opentype'),
+        url('MikadoLight.woff2') format('woff2'),
+        url('MikadoLight.woff') format('woff'),
+        url('MikadoLight.ttf') format('truetype'),
+        url('MikadoLight.svg#MikadoLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mikado';
+    src: url('MikadoBlack.eot');
+    src: url('MikadoBlack.eot?#iefix') format('embedded-opentype'),
+        url('MikadoBlack.woff2') format('woff2'),
+        url('MikadoBlack.woff') format('woff'),
+        url('MikadoBlack.ttf') format('truetype'),
+        url('MikadoBlack.svg#MikadoBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mikado';
+    src: url('MikadoBold.eot');
+    src: url('MikadoBold.eot?#iefix') format('embedded-opentype'),
+        url('MikadoBold.woff2') format('woff2'),
+        url('MikadoBold.woff') format('woff'),
+        url('MikadoBold.ttf') format('truetype'),
+        url('MikadoBold.svg#MikadoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mikado';
+    src: url('MikadoRegular.eot');
+    src: url('MikadoRegular.eot?#iefix') format('embedded-opentype'),
+        url('MikadoRegular.woff2') format('woff2'),
+        url('MikadoRegular.woff') format('woff'),
+        url('MikadoRegular.ttf') format('truetype'),
+        url('MikadoRegular.svg#MikadoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mikado Ultra';
+    src: url('MikadoUltra.eot');
+    src: url('MikadoUltra.eot?#iefix') format('embedded-opentype'),
+        url('MikadoUltra.woff2') format('woff2'),
+        url('MikadoUltra.woff') format('woff'),
+        url('MikadoUltra.ttf') format('truetype'),
+        url('MikadoUltra.svg#MikadoUltra') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

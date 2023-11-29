@@ -1,0 +1,1447 @@
+.page-template-school-onboarding aside, .page-template-school-onboarding #masthead, .page-template-school-onboarding footer {
+  display: none;
+}
+
+.page-template-school-onboarding #page {
+  margin: 0px;
+}
+
+.page-template-school-onboarding #page #content {
+  padding: 0px;
+}
+
+.page-template-school-onboarding #page #content .container {
+  max-width: 100%;
+  padding: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_validation_errors {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gfield_label .gfield_required {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gf_page_steps {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FFFFFF;
+  position: relative;
+}
+
+.page-template-school-onboarding #page #content .container .gf_page_steps .gf_step_last {
+  display: none !important;
+}
+
+.page-template-school-onboarding #page #content .container .gf_page_steps .slick-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-template-school-onboarding #page #content .container .gf_page_steps .slick-arrow.slick-prev {
+  position: absolute;
+  left: 10px;
+}
+
+.page-template-school-onboarding #page #content .container .gf_page_steps .slick-arrow.slick-next {
+  position: absolute;
+  right: 10px;
+  left: auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .page-template-school-onboarding #page #content .container .gf_page_steps {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gf_page_steps {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_body.gform-body {
+  overflow: hidden;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+  margin: auto;
+  padding: 48px 100px;
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-template-school-onboarding #page #content .container .gform_page {
+    padding: 30px;
+    margin: 30px auto;
+    width: calc(100% - 30px);
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .gform_ajax_spinner {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page #field_2_91 .ginput_container, .page-template-school-onboarding #page #content .container .gform_page #field_2_93 .ginput_container {
+  margin-bottom: 17px !important;
+  position: relative;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page #field_2_91 .ginput_container:before, .page-template-school-onboarding #page #content .container .gform_page #field_2_93 .ginput_container:before {
+  position: absolute;
+  content: " ";
+  background-image: url("../img/family-onboarding/lock.svg");
+  width: 24px;
+  height: 24px;
+  top: 10px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page #field_2_91 .ginput_container #input_2_91, .page-template-school-onboarding #page #content .container .gform_page #field_2_91 .ginput_container #input_2_93, .page-template-school-onboarding #page #content .container .gform_page #field_2_93 .ginput_container #input_2_91, .page-template-school-onboarding #page #content .container .gform_page #field_2_93 .ginput_container #input_2_93 {
+  width: 100%;
+  padding-left: 40px !important;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_1 {
+  max-width: 640px;
+  padding: 48px 70px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_1 {
+    padding: 30px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_1 .gf-custom-navigation {
+  opacity: 0;
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_1 .gform_next_button {
+  margin: 0px auto 0px auto;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_1 .top-progress-tracker {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .skip-and-submit-buttons {
+  margin-top: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .ginput_full, .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .ginput_left, .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .ginput_right {
+  margin-bottom: 30px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .address-fields {
+  margin-top: 30px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .gfield--width-full {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .skip-and-submit-buttons .btn-submit {
+  margin-bottom: 30px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .validation_message.gfield_validation_message {
+  padding: 2px 10px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_5 .divider {
+  border-bottom: 1px solid #E6E4F6;
+  margin-bottom: 40px;
+  background: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_6 label {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_6 .ginput_container {
+  margin-bottom: 30px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_6 h3 {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_6 h3 {
+    line-height: 29px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_6 .phonenumber .ginput_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_6 .phonenumber .ginput_container .phone-flag {
+  border-bottom: 2px solid #EFF0F5;
+  width: 60px;
+  margin-right: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_6 .phonenumber .ginput_container .phone-flag img {
+  margin-right: 10px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 h3 {
+  line-height: 32px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .divider {
+  margin-bottom: 30px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 p {
+  line-height: 24px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 375px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: rgba(93, 83, 192, 0.05);
+  border: 2px solid #E6E4F6;
+  border-radius: 6px;
+  position: relative;
+  height: 220px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container label.active {
+  border: 2px solid #5D53C0;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container label input[type=radio] {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container label input[type=radio] + .ck {
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/facial-expression-unchecked.png");
+  top: 14px;
+  right: 14px;
+  position: absolute;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container label input[type=radio]:checked + .ck {
+  background-image: url("../img/facial-expression-check.png");
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container label img {
+  max-width: 99px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_7 .facial-features-container label .text {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-top: 25px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 p {
+  line-height: 24px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .wp-editor-container {
+  border: none;
+  margin-bottom: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tab-menu {
+  border-bottom: 2px solid #EFF0F5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tab-menu a {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B6F72;
+  margin-right: 40px;
+  padding-bottom: 11px;
+  margin-bottom: -2px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tab-menu a.active {
+  color: #5D53C0;
+  border-bottom: 3px solid #5D53C0;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content.active {
+  display: block;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .mce-container-body .mce-toolbar, .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .mce-container-body .mce-toolbar-grp, .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .mce-container-body .mce-statusbar {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .mce-container-body iframe {
+  border: 2px solid #E6E4F6;
+  border-radius: 12px;
+  min-height: 400px;
+  padding: 0px 0px 0px 15px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .mce-container-body iframe#teacher_body_greetings_ifr, .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .mce-container-body iframe#student_body_greetings_ifr {
+  max-height: 60px;
+  min-height: auto;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .body2-disabled {
+  border: 2px solid #E6E4F6;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .wp-editor-tools {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content h3 {
+  margin: 40px 0px 10px 0px;
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content h3 {
+    line-height: 27px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .email-template {
+  margin-top: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .email-template label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .email-template input {
+  width: 100%;
+  font-size: 16px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .welcome-email-container .tabs .tab-content .email-template .subject {
+  margin-bottom: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 .skip-and-submit-buttons {
+  margin-top: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_8 label {
+  line-height: 32px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template {
+  padding: 25px 20px;
+  background: #F8F7FF;
+  border: 2px solid #E6E4F6;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template .text {
+    text-align: center !important;
+  }
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template .button-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template .button-container a {
+    font-size: 12px !important;
+    margin: auto;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template .text {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: left;
+  color: #37394A;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template .button-container {
+  width: 240px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-template .button-container a {
+  padding: 12px 20px;
+  width: 100%;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5D53C0;
+  border: 1px solid #5D53C0;
+  border-radius: 100px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .message {
+  border: 1px solid #B0D178;
+  border-radius: 6px;
+  margin: 30px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F8F7FF;
+  padding: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .message .icon {
+  border-radius: 6px 0px 0px 6px;
+  background: #B0D178;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .message .text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #37394A;
+  padding-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .list {
+  border: 2px solid #E6E4F6;
+  border-radius: 12px 12px 0px 0px;
+  margin-bottom: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .list .heading {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 210px 1fr;
+      grid-template-columns: 210px 1fr;
+  padding: 0px 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F8F7FF;
+  height: 60px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .list .heading .email {
+    display: none !important;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .list .items {
+  padding: 20px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .list .items .item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 210px 1fr;
+      grid-template-columns: 210px 1fr;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #37394A;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #E6E4F6;
+  border-radius: 6px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .list .items .item {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    text-align: center;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .import-teachers-container .imported-teachers .list .items .item .email {
+  line-height: 22px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 #import-teachers {
+  margin-bottom: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .gform_page_footer {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .btn-import {
+    margin: auto;
+  }
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 button {
+    margin: auto;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_9 .dz-progress {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_10 .gform_page_fields {
+  min-height: 504px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_10 .gform_page_fields .spinner {
+  text-align: center;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_10 .gform_page_fields p {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #37394A;
+  margin-top: 30px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_10 .gform_page_footer {
+  opacity: 0;
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page:not(#gform_page_1_1) .gform_page_footer input {
+  opacity: 0;
+  visibility: hidden;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page:not(#gform_page_1_1) .gform_page_footer .gf-custom-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page:not(#gform_page_1_1) .gform_page_footer .gf-custom-navigation button {
+  background: none;
+  border: none;
+  padding: 0px;
+  margin: 0px 1px 0px 0px;
+  min-width: auto;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_2 .btn-submit {
+  margin-top: 20px;
+  margin-bottom: 130px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_2 .btn-submit {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_2 h3 {
+  margin-top: 47px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page#gform_page_1_2 h3 {
+    line-height: 29px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_4 h3 {
+  margin-bottom: 20px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page#gform_page_1_4 p {
+  line-height: 24px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .gform_previous_button.button.gform_image_button,
+.page-template-school-onboarding #page #content .container .gform_page .gform_next_button.button.gform_image_button {
+  padding: 0px;
+  border: none;
+  border-radius: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page h2 {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #37394A;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page h2 {
+    line-height: 32px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page p {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #37394A;
+  margin: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .checklist {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .checklist li {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #37394A;
+  list-style: none;
+  position: relative;
+  padding-left: 34px;
+  margin-top: 20px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .checklist li:first-child {
+  margin-top: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .checklist li:before {
+  content: " ";
+  width: 9px;
+  height: 14px;
+  background-image: url("../img/checklist-li.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 0px;
+  height: 24px;
+  width: 24px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .gform_page_footer {
+  padding: 0px;
+  margin: 38px 0px 0px 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .gfield_label, .page-template-school-onboarding #page #content .container .gform_page h3, .page-template-school-onboarding #page #content .container .gform_page .ginput_left label, .page-template-school-onboarding #page #content .container .gform_page .ginput_right label, .page-template-school-onboarding #page #content .container .gform_page .welcome-email-container label {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #37394A;
+  margin: 0px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .ginput_container input[type=text], .page-template-school-onboarding #page #content .container .gform_page .ginput_container select, .page-template-school-onboarding #page #content .container .gform_page .ginput_container input[type=email],
+.page-template-school-onboarding #page #content .container .gform_page .ginput_full input[type=text],
+.page-template-school-onboarding #page #content .container .gform_page .ginput_full select,
+.page-template-school-onboarding #page #content .container .gform_page .ginput_full input[type=email],
+.page-template-school-onboarding #page #content .container .gform_page .ginput_left input[type=text],
+.page-template-school-onboarding #page #content .container .gform_page .ginput_left select,
+.page-template-school-onboarding #page #content .container .gform_page .ginput_left input[type=email], .page-template-school-onboarding #page #content .container .gform_page .ginput_right input[type=text], .page-template-school-onboarding #page #content .container .gform_page .ginput_right select, .page-template-school-onboarding #page #content .container .gform_page .ginput_right input[type=email] {
+  border: none;
+  border-bottom: 2px solid #EFF0F5;
+  padding: 0px;
+  border-radius: 0px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page input[type=text], .page-template-school-onboarding #page #content .container .gform_page input[type=password] {
+  border: none;
+  border-bottom: 2px solid #EFF0F5;
+  padding: 0px;
+  border-radius: 0px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .skip-and-submit-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .skip-and-submit-buttons button {
+  margin-right: 10px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .skip-and-submit-buttons button:last-child {
+  margin-right: 0px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page .skip-and-submit-buttons {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    grid-row-gap: 15px;
+    margin-bottom: 30px;
+  }
+  .page-template-school-onboarding #page #content .container .gform_page .skip-and-submit-buttons button {
+    margin-right: 0px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .top-progress-tracker {
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  left: 0px;
+  width: 100%;
+  background: rgba(242, 169, 82, 0.25);
+  -webkit-box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+  height: 6px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .top-progress-tracker .progress {
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+  background: #F2A952;
+  -webkit-box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+  height: 6px;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .address-fields .ginput_address_line_1 label,
+.page-template-school-onboarding #page #content .container .gform_page .address-fields .ginput_address_line_2 label {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gform_page .divider {
+  background: #EFF0F5;
+  width: 100%;
+  height: 2px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #page #content .container .gform_page .gfield_description.validation_message.gfield_validation_message {
+    font-size: 12px;
+    line-height: 20px;
+    padding: 8px 10px;
+  }
+}
+
+.page-template-school-onboarding #page #content .container .gform_page label + [aria-invalid=true], .page-template-school-onboarding #page #content .container .gform_page label + input[type=text] {
+  color: #37394a;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center  !important;
+      -ms-flex-align: center  !important;
+          align-items: center  !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+  position: relative !important;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step:after {
+  content: " ";
+  width: 9px;
+  height: 14px;
+  background-image: url("../img/angle-right.png");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  right: -20px;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step:nth-last-child(2):after {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step .gf_step_number {
+  border: 1px solid #E6E4F6;
+  background: none;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #6B6F72;
+  width: 28px !important;
+  height: 28px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step .gf_step_number:after {
+  left: -1px;
+  top: -1px;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step .gf_step_label {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #37394A;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step.gf_step_active .gf_step_number {
+  border: 1px solid #5D53C0;
+  color: #5D53C0;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step.gf_step_active .gf_step_label {
+  color: #5D53C0;
+}
+
+.page-template-school-onboarding #page #content .container .gf_step.gf_step_completed .gf_step_number:before {
+  background-color: #5D53C0 !important;
+  border: 2px solid #5D53C0;
+  width: 28px;
+  height: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-template-school-onboarding #page #content .container .slick-slide .gf_step:after {
+  right: -5px;
+}
+
+.page-template-school-onboarding #page #content .container .dropzone .dz-default {
+  background: rgba(93, 83, 192, 0.05);
+  border: 2px dashed #E6E4F6;
+  border-radius: 6px;
+  min-height: 300px !important;
+  min-width: 100% !important;
+}
+
+.page-template-school-onboarding #page #content .container .dropzone .dz-default .dz-button:before {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .dropzone .dz-default .custom-button-uploader .text {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #37394A;
+  text-transform: initial;
+  margin: 20px 0px 8px 0px;
+}
+
+.page-template-school-onboarding #page #content .container .dropzone .dz-default .custom-button-uploader .text b {
+  font-weight: 500;
+}
+
+.page-template-school-onboarding #page #content .container .dropzone .dz-default .custom-button-uploader .size-limit {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #37394A;
+  text-transform: initial;
+}
+
+.page-template-school-onboarding #page #content .container .dropzone.dz-started .custom-button-uploader {
+  display: none;
+}
+
+.page-template-school-onboarding #page #content .container .dropzone.dz-started .dz-preview {
+  position: absolute;
+  width: 100%;
+  min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-template-school-onboarding #page #content .container .hide-field {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.page-template-school-onboarding #page #content .container .hide-field .ginput_container, .page-template-school-onboarding #page #content .container .hide-field .gfield_label {
+  position: absolute !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  height: 0px !important;
+  width: 0px !important;
+}
+
+.page-template-school-onboarding #page #content .container .hide-field.facial-features-container {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.page-template-school-onboarding #page #content .settings-selected-item {
+  background: #F8F7FF;
+  border: 1px solid #5D53C0;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D53C0;
+}
+
+.page-template-school-onboarding #page #content .top-tooltip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 0px;
+  top: -35px;
+}
+
+.page-template-school-onboarding #page #content .top-tooltip h2 {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #37394A;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0px;
+  text-align: left;
+}
+
+.page-template-school-onboarding #page #content .top-tooltip > span {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D53C0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.page-template-school-onboarding #page #content .top-tooltip > span svg {
+  margin-right: 8px;
+}
+
+.page-template-school-onboarding #page #content .top-tooltip > span .tooltip {
+  position: absolute;
+  display: none;
+  background: #37394A;
+  border-radius: 16px;
+  padding: 20px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 320px;
+  top: 31px;
+  min-width: 320px;
+  right: 0px;
+}
+
+.page-template-school-onboarding #page #content .top-tooltip > span .tooltip:after {
+  content: " ";
+  width: 24px;
+  height: 24px;
+  background: #37394A;
+  position: absolute;
+  top: -2px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: 18px;
+}
+
+.page-template-school-onboarding #page #content .top-tooltip > span:hover .tooltip {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-template-school-onboarding #page button, .page-template-school-onboarding #page input[type=button] {
+  background: #B0D178;
+  border-color: #B0D178;
+  border-radius: 100px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-width: 200px;
+  min-height: 56px;
+}
+
+.page-template-school-onboarding #page .btn-skip, .page-template-school-onboarding #page .btn-test-email, .page-template-school-onboarding #page .btn-preview-email {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #5D53C0;
+  border: 1px solid #E6E4F6;
+  background: #FFFFFF;
+}
+
+.page-template-school-onboarding #page .btn-test-email, .page-template-school-onboarding #page .btn-preview-email {
+  border-color: #5D53C0;
+  min-width: 190px;
+  padding: 0px;
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content, .page-template-school-onboarding #preview-email-modal .modal-content {
+  width: 600px;
+  -webkit-box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+  border-radius: 24px;
+  position: relative;
+  padding: 60px 80px;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #send-test-email-modal .modal-content, .page-template-school-onboarding #preview-email-modal .modal-content {
+    padding: 50px 20px;
+  }
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content .close, .page-template-school-onboarding #preview-email-modal .modal-content .close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  padding: 0px;
+  margin: 0px;
+  min-width: auto;
+  border: none;
+  min-height: 24px;
+  min-width: 24px;
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content h2, .page-template-school-onboarding #preview-email-modal .modal-content h2 {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  color: #5D53C0;
+  margin-bottom: 40px;
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content p, .page-template-school-onboarding #preview-email-modal .modal-content p {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #37394A;
+}
+
+@media only screen and (max-width: 480px) {
+  .page-template-school-onboarding #send-test-email-modal .modal-content p, .page-template-school-onboarding #preview-email-modal .modal-content p {
+    text-align: center;
+    line-height: 27px;
+  }
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content div, .page-template-school-onboarding #preview-email-modal .modal-content div {
+  margin: 30px 0px 40px 0px;
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content div label, .page-template-school-onboarding #preview-email-modal .modal-content div label {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+  color: #37394A;
+  display: block;
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content div input, .page-template-school-onboarding #preview-email-modal .modal-content div input {
+  border: 2px solid #E6E4F6;
+  border-radius: 12px;
+  width: 100%;
+  height: 60px;
+}
+
+.page-template-school-onboarding #send-test-email-modal .modal-content button, .page-template-school-onboarding #preview-email-modal .modal-content button {
+  margin: auto;
+}
+
+.page-template-school-onboarding #preview-email-modal .modal-content {
+  padding: 0px;
+  width: 640px;
+}
+
+.page-template-school-onboarding #preview-email-modal .modal-content p {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.2px;
+  color: #37394A;
+}
+
+.page-template-school-onboarding ::-webkit-input-placeholder {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(191, 191, 191, 0.5);
+}
+
+.page-template-school-onboarding :-ms-input-placeholder {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(191, 191, 191, 0.5);
+}
+
+.page-template-school-onboarding ::-ms-input-placeholder {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(191, 191, 191, 0.5);
+}
+
+.page-template-school-onboarding ::placeholder {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(191, 191, 191, 0.5);
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.page-template-school-onboarding .frm-send-test-email label.error {
+  font-size: 13px !important;
+  margin-top: 10px;
+  font-weight: normal !important;
+  color: #b8132c !important;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoMedium.eot");
+  src: url("../fonts/MikadoMedium.eot?#iefix") format("embedded-opentype"), url("../fonts/MikadoMedium.woff2") format("woff2"), url("../fonts/MikadoMedium.woff") format("woff"), url("../fonts/MikadoMedium.ttf") format("truetype"), url("../fonts/MikadoMedium.svg#MikadoMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoLight.eot");
+  src: url("../fonts/MikadoLight.eot?#iefix") format("embedded-opentype"), url("../fonts/MikadoLight.woff2") format("woff2"), url("../fonts/MikadoLight.woff") format("woff"), url("../fonts/MikadoLight.ttf") format("truetype"), url("../fonts/MikadoLight.svg#MikadoLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoBlack.eot");
+  src: url("../fonts/MikadoBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/MikadoBlack.woff2") format("woff2"), url("../fonts/MikadoBlack.woff") format("woff"), url("../fonts/MikadoBlack.ttf") format("truetype"), url("../fonts/MikadoBlack.svg#MikadoBlack") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoBold.eot");
+  src: url("../fonts/MikadoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/MikadoBold.woff2") format("woff2"), url("../fonts/MikadoBold.woff") format("woff"), url("../fonts/MikadoBold.ttf") format("truetype"), url("../fonts/MikadoBold.svg#MikadoBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoRegular.eot");
+  src: url("../fonts/MikadoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/MikadoRegular.woff2") format("woff2"), url("../fonts/MikadoRegular.woff") format("woff"), url("../fonts/MikadoRegular.ttf") format("truetype"), url("../fonts/MikadoRegular.svg#MikadoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado Ultra";
+  src: url("../fonts/MikadoUltra.eot");
+  src: url("../fonts/MikadoUltra.eot?#iefix") format("embedded-opentype"), url("../fonts/MikadoUltra.woff2") format("woff2"), url("../fonts/MikadoUltra.woff") format("woff"), url("../fonts/MikadoUltra.ttf") format("truetype"), url("../fonts/MikadoUltra.svg#MikadoUltra") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mce-content-body {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B6F72;
+}
+
+.mce-content-body a {
+  color: #5D53C0;
+}
+/*# sourceMappingURL=school-onboarding.css.map */

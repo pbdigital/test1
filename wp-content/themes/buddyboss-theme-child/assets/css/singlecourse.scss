@@ -1,0 +1,491 @@
+// RWD Media Queries (Breakpoints)
+$medium: "only screen and (max-width : 1024px)";
+$tabletlarge: "only screen and (max-width : 900px)";
+$tablet: "only screen and (max-width : 768px)";
+$mobilelarge: "only screen and (max-width : 600px)";
+$mobile: "only screen and (max-width : 480px)";
+$mobilesmall: "only screen and (max-width : 375px)";
+$small: "only screen and (max-width : 320px)";
+
+.single-sfwd-courses {
+  .buddypanel,
+  .site-header {
+    display: none;
+  }
+  #page {
+    margin: 0 !important;
+    background: linear-gradient(0deg, #a26eb0 0.12%, #422e63 66.04%, #0e1028 100%);
+    background-size: cover;
+    .container {
+      max-width: 100%;
+      margin: 0;
+    }
+    .content-area {
+      padding: 0;
+    }
+    .site-content {
+      padding: 0;
+    }
+    .entry-content-wrap {
+      padding-top: 0;
+    }
+    // .learndash-wrapper,
+    .ld-section-heading,
+    .ld-course-status,
+    figure.entry-media.entry-img.bb-vw-container1,
+    .footer-bottom {
+      display: none;
+    }
+  }
+  header.entry-header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    margin: 0;
+    background: #df7b73;
+    padding: 15px 10px 16px;
+    border: 7px solid #e3aaa4;
+    border-radius: 0 0 20px 20px;
+    border-top: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    @media #{$mobilelarge} {
+      width: 200px;
+      padding: 10px;
+    }
+    h1 {
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 31px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin: 0;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      @media #{$mobilelarge} {
+        font-size: 20px;
+        line-height: 1;
+      }
+    }
+  }
+  a.btn-back {
+    margin-top: 30px;
+    margin-left: 30px;
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-flex;
+    place-items: center;
+    place-content: center;
+    position: absolute;
+    top: 0;
+    z-index: 999999;
+
+    @media #{$mobilelarge} {
+      margin-left: 10px;
+      margin-top: 60px;
+    }
+    img{
+      @media #{$mobilelarge} {
+        width:50px;   
+      }
+    }
+
+    svg {
+      width: 60px;
+      height: 60px;
+      @media #{$mobilelarge} {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .g-actions {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    @media #{$mobilelarge} {
+      right: 10px;
+      top: 60px;
+    }
+    img {
+      width: 50px;
+      height: 50px;
+      flex: 0 0 50px;
+      margin-right: -39px;
+      position: relative;
+      z-index: 5;
+    }
+    .gcoins {
+      background: #f2a952;
+      display: flex;
+      position: relative;
+      border: 4px solid #f2a952;
+      border-radius: 10px;
+      svg {
+        position: absolute;
+        top: -1px;
+        width: 100%;
+        z-index: 4;
+      }
+      span {
+        font-family: "Mikado";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 31px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #f2a952;
+        border-radius: 10px;
+        background: #fff;
+        padding: 4px 23px 0 57px;
+        position: relative;
+        z-index: 2;
+      }
+    }
+  }
+  .path-wrapper {
+    position: relative;
+    z-index: 1;
+  }
+  .path-bg {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    > img {
+      width: 1440px;
+      position: relative;
+      max-width: initial;
+      left: 50%;
+      transform: translateX(-50%);
+      @media #{$mobilelarge} {
+        width: 900px;
+      }
+    }
+    .course-nav {
+      .btn-nav {
+        position: absolute;
+        background: 0;
+        padding: 0;
+        top: 50vh;
+        border: 0;
+        z-index: 5;
+        @media #{$mobilelarge} {
+          width: 40px;
+        }
+        &.btn-prev {
+          left: 20px;
+          @media #{$mobilelarge} {
+            left: 5px;
+          }
+        }
+        &.btn-next {
+          right: 20px;
+          @media #{$mobilelarge} {
+            right: 5px;
+          }
+        }
+      }
+    }
+  }
+  .path-content {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    &__inner {
+      max-width: 600px;
+      margin: 157px auto 0;
+      width: calc(100% - 80px);
+    }
+    h2 {
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 42px;
+      text-align: center;
+      color: #ffffff;
+    }
+    p {
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32px;
+      text-align: center;
+      color: #ffffff;
+      @media #{$mobilelarge} {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+    .btn-start {
+      width: 200px;
+      height: 56px;
+      background: #b0d178;
+      border-color: #b0d178;
+      border-radius: 100px;
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      display: flex;
+      place-items: center;
+      place-content: center;
+      margin: 0 auto;
+    }
+  }
+  .course-path {
+    position: relative;
+    // max-width: 650px;
+    // margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - 40px);
+
+    @media #{$mobilelarge} {
+      width: calc(100% - 70px);
+    }
+    @media #{$small} {
+      width: calc(100% - 50px);
+    }
+
+    &__item {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      place-content: center;
+      place-items: center;
+      @media #{$mobilelarge} {
+        width:84px;
+      }
+      &.completed {
+        .course-path__total {
+          display: none;
+        }
+        .checkmark {
+          display: block;
+        }
+      }
+    }
+    &__progress {
+      display: flex;
+      top: 0;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    &__total {
+      background: #73529d;
+      border: 3px solid #ffffff;
+      border-radius: 100px;
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding: 2px 8.5px;
+      position: absolute;
+      right: -10px;
+      top: -3px;
+      @media #{$mobilelarge} {
+        right: 25px;
+        top: -30px;
+      }
+    }
+    &__icon {
+      width: 83px;
+      height: 83px;
+      flex: 0 0 83px;
+      display: flex;
+      place-content: center;
+      place-items: center;
+      border-radius: 100%;
+    }
+
+    &__name {
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center;
+      color: #ffffff;
+      width: 140px;
+      margin-top: 16px;
+      position: absolute;
+      top: 100%;
+      @media #{$mobilelarge} {
+        font-size: 13px;
+        margin-top: 5px;
+      }
+    }
+
+    .checkmark {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: none;
+      stroke-width: 2;
+      stroke: #fff;
+      stroke-miterlimit: 10;
+      animation: fill 0.5s ease-in-out 0.5s forwards, scale 0.5s ease-in-out 0.5s both;
+      top: 0;
+      right: 2px;
+      &__circle {
+        stroke-dasharray: 166;
+        stroke-dashoffset: 166;
+        stroke-width: 3;
+        stroke-miterlimit: 10;
+        animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+      }
+      &__check {
+        transform-origin: 50% 50%;
+        stroke-dasharray: 48;
+        stroke-dashoffset: 48;
+        animation: stroke 0.5s cubic-bezier(0.65, 0, 0.45, 1) 0.5s forwards;
+      }
+    }
+    @keyframes stroke {
+      100% {
+        stroke-dashoffset: 0;
+      }
+    }
+    @keyframes scale {
+      0%,
+      100% {
+        transform: none;
+      }
+      50% {
+        transform: scale3d(1.1, 1.1, 1);
+      }
+    }
+    @keyframes fill {
+      100% {
+        box-shadow: inset 0px 0px 0px 30px #fff;
+      }
+    }
+  }
+}
+#certificateModal {
+  .modal-content {
+    background: #5d53c0;
+    box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+    border-radius: 24px;
+    max-width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    @media #{$mobilelarge} {
+      width: 85%;
+    }
+
+    h2 {
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 16px;
+    }
+    p {
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 28px;
+      text-align: center;
+      color: #ffffff;
+      margin-bottom: 36px;
+    }
+    svg {
+      cursor: pointer;
+    }
+  }
+}
+#certificateModal {
+  z-index: 999999;
+  .modal-content {
+    background-image: url("../img/singlecourse/modal-bg.png");
+    background-position: center;
+    padding: 50px 50px 55px;
+    @media #{$mobilelarge} {
+      padding: 50px 20px;
+    }
+    .close {
+      width: 50px;
+      height: 50px;
+      border-radius: 100%;
+      background: #b0d178;
+      opacity: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: -20px;
+      right: -20px;
+      z-index: 99999;
+      @media #{$mobilelarge} {
+        width: 40px;
+        height: 40px;
+      }
+    }
+    > img {
+      margin-bottom: 40px;
+    }
+    p {
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      color: #ffffff;
+      @media #{$mobilelarge} {
+        line-height: 26px;
+      }
+    }
+    .btn-download {
+      background: #b0d178;
+      border-radius: 100px;
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding: 16px 48px;
+      @media #{$mobilelarge} {
+        padding: 16px 20px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 13px;
+      }
+    }
+  }
+}

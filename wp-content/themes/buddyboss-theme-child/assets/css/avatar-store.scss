@@ -1,0 +1,1319 @@
+
+$museo: "museo-sans-rounded", sans-serif !default;
+$sofia: "sofia-pro", sans-serif !default;
+$bg-blue: #e4f1fb;
+$large: "only screen and (max-width : 1200px)";
+$medium: "only screen and (max-width : 1024px)";
+$tabletlarge: "only screen and (max-width : 900px)";
+$tablet: "only screen and (max-width : 768px)";
+$mobilelarge: "only screen and (max-width : 600px)";
+$mobile: "only screen and (max-width : 480px)";
+$mobilesmall: "only screen and (max-width : 375px)";
+$small: "only screen and (max-width : 320px)";
+
+.page-template-avatarstore{
+    aside.buddypanel{
+        display:none;
+    }
+    #page{
+        margin-left:0px;
+        background:#463f88;
+        min-height: 100vh;
+        position: relative;
+        header{
+            display:none;
+        }
+        a.btn-back {
+            margin-top: 30px;
+            margin-left: 30px;
+            -webkit-appearance: none;
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            place-items: center;
+            place-content: center;
+            @media #{$mobile} {
+                margin-left:0px;
+                img{
+                    width:40px;
+                }
+            }
+        }
+        .g-actions {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            @media #{$mobile} {
+                right:10px;
+            }
+            img {
+                width: 50px;
+                height: 50px;
+                -webkit-box-flex: 0;
+                -ms-flex: 0 0 50px;
+                flex: 0 0 50px;
+                margin-right: -39px;
+                position: relative;
+                z-index: 5;
+
+                @media #{$mobile} {
+                    max-width: 40px;
+                    height: auto;
+                }
+            }
+            .gcoins {
+                background: #f2a952;
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                position: relative;
+                border: 4px solid #f2a952;
+                border-radius: 10px;
+                svg {
+                    position: absolute;
+                    top: -1px;
+                    width: 100%;
+                    z-index: 4;
+                }
+                span {
+                    font-family: "Mikado";
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 31px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #f2a952;
+                    border-radius: 10px;
+                    background: #fff;
+                    padding: 4px 23px 0 57px;
+                    position: relative;
+                    z-index: 2;
+
+                    @media #{$mobile} {
+                        font-size: 18px;
+                        line-height: 20px;
+                        padding: 4px 12px 0 45px;
+                    }
+                }
+            }
+        }
+
+        .site-content{
+            min-height: 100vh;
+            .container{
+                max-width:100%;
+                .bb-grid{
+                    display: block;
+                }
+            }
+            .avatars {
+                padding: 44px 10px 40px !important;
+
+                .shop{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: -25px;
+                    z-index: 1;
+                    position: relative;
+                    &-label{
+                        background: #F2A952;
+                        border:5px solid #EBCE99;
+                        border-radius: 12px;
+                        border-radius: 10px;
+                        display: inline-flex;
+                        width:200px;
+                        height: 50px;
+                        justify-content: center;
+                        align-items: center;
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 22px;
+                        line-height: 29px;
+                        /* identical to box height */
+
+                        text-align: center;
+                        text-transform: uppercase;
+
+                        color: #FFFFFF;
+                    }
+                }
+
+                &-inner {
+                    display: grid;
+                    grid-template-columns: 570px calc(100% - 570px);
+                    background: #ffffff;
+                    box-shadow: 0px 0px 15px rgba(88, 104, 123, 0.1);
+                    border-radius: 16px;
+                    max-width: 1110px;
+                    border-radius: 16px;
+                    overflow: hidden;
+                    margin: 0 auto;
+                   
+                    @media #{$medium} {
+                        grid-template-columns: 1fr;
+                    }
+                    
+                    
+                }
+                &-main {
+                    background: #f6f8fb;
+                    padding: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    @media #{$tabletlarge} {
+                        padding: 50px 10px 34px;
+                    }
+                }
+                &-wrapper {
+                    position: relative;
+                    background-image:url("/wp-content/uploads/2022/10/avatar-store-bg.png");
+                    border-radius: 20px;
+                    width:100%;
+                    height:500px;
+                    background-size:contain;
+                    background-position: center;
+                    @media #{$medium} {
+                        background-repeat: no-repeat;
+                        max-width: 480px;
+                    }
+                    @media #{$tabletlarge} {
+                        zoom:100%;
+                        background-repeat: no-repeat;
+                        max-width: 480px;
+                    }
+                    @media #{$mobilelarge} {
+                        zoom:68%
+                    }
+                    @media #{$mobile} {
+                        zoom:60%
+                    }
+                    @media #{$mobilesmall} {
+                        zoom:50%
+                    }
+                }
+                &-hero {
+                    position: relative;
+                    height: 100%;
+                    max-width: 430px;
+                    margin: auto;
+                    padding: 0px;
+                    height: 470px;
+                    margin-top: 15px;
+                    > svg {
+                        width: 100%;
+                        max-width: 220px;
+                        margin: 0 auto;
+                        display: block;
+                        &.hair{
+                            position: absolute;
+                            left: 29%;
+                            z-index: 2;
+                            top: 53px;
+
+                            &[data-hairstyle="hairstyle-4"]{
+                                left: 120px;
+                                top: 50px;
+                            }
+                            &[data-hairstyle="hairstyle-2"]{
+                                left: 120px;
+                                top: 63px;
+                            }
+                            &[data-hairstyle="hairstyle-3"]{
+                                left: 120px;
+                                top: 53px;
+                            }
+                            &[data-hairstyle="hairstyle-5"]{
+                                top: 55px
+                            }
+                            &[data-hairstyle="hairstyle-6"]{
+                                top: 48px;
+                            }
+                            &[data-hairstyle="hairstyle-7"]{
+                                left: 28%;
+                                top: 34px;
+                            }
+                            &[data-hairstyle="hairstyle-8"]{
+                                left: 28%;
+                                top: 22px;
+                            }
+                            &[data-hairstyle="hairstyle-9"]{
+                                left: 28%;
+                                top: 38px;
+                            }
+                            &[data-hairstyle="hairstyle-10"]{
+                                left: 28%;
+                                top: 52px;
+                            }
+                            &[data-hairstyle="hairstyle-11"]{
+                                left: 28%;
+                                top: 22px;
+                            }
+                            &[data-hairstyle="hairstyle-12"]{
+                                left: 28%;
+                                top: 52px;
+                            }
+                            &[data-hairstyle="hairstyle-13"]{
+                                left: 28%;
+                                top: 61px;
+                            }
+
+                            &[data-hairstyle="hair-style-boy-1"]{
+                                left: 120px;
+                                top: 51px;
+                            }
+                            &[data-hairstyle="hair-style-boy-2"]{
+                                left: 119px;
+                                top: 34px;
+                            }
+                            &[data-hairstyle="hair-style-boy-3"]{
+                                left: 119px;
+                                top: 29px;
+                            }
+                            &[data-hairstyle="hair-style-boy-4"]{
+                                left: 119px;
+                                top: 29px;
+                            }
+                            &[data-hairstyle="hair-style-boy-5"]{
+                                left: 119px;
+                                top: 45px;
+                            }
+                            &[data-hairstyle="hair-style-boy-6"]{
+                                left: 119px;
+                                top: 43px;
+                            }
+                            &[data-hairstyle="hair-style-boy-7"]{
+                                left: 119px;
+                                top: 40px;
+                            }
+                            &[data-hairstyle="hair-style-boy-8"]{
+                                left: 119px;
+                                top: 32px;
+                            }
+                            &[data-hairstyle="hair-style-boy-9"]{
+                                left: 119px;
+                                top: 22px;
+                            }
+                            &[data-hairstyle="hair-style-boy-10"]{
+                                left: 119px;
+                                top: 9px;
+                            }
+                            &[data-hairstyle="hair-style-boy-11"]{
+                                left: 119px;
+                                top: 38px;
+                            }
+                            &[data-hairstyle="hair-style-boy-12"]{
+                                left: 119px;
+                                top: 31px;
+                            }
+                            &[data-hairstyle="hair-style-boy-13"]{
+                                left: 119px;
+                                top: 30px;
+                            }
+                        }
+                        &.hair-back{
+                            position: absolute;
+                            left: 119px;
+                            z-index: 0;
+                            top: 82px;
+
+                            &[data-hairstyle="hairstyle-4"]{
+                                left: 120px;
+                                top: 55px;
+                            }
+                            &[data-hairstyle="hairstyle-2"]{
+                                left: 120px;
+                                top: 68px;
+                            }
+                            &[data-hairstyle="hairstyle-3"]{
+                                left: 120px;
+                                top: 58px;
+                            }
+                            &[data-hairstyle="hairstyle-5"]{
+                                left: 119px;
+                                top: 40px;
+                            }
+                            &[data-hairstyle="hairstyle-6"]{
+                                top: 45px;
+                            }
+                            &[data-hairstyle="hairstyle-7"]{
+                                top: 53px;
+                            }
+                            &[data-hairstyle="hairstyle-8"]{
+                                top: 53px;
+                            }
+                            &[data-hairstyle="hairstyle-9"]{
+                                top: 150px;
+                                left: 93px;
+                            }
+                            &[data-hairstyle="hairstyle-10"]{
+                                top: 0;
+                            }
+                            &[data-hairstyle="hairstyle-11"]{
+                                top: 20px;
+                            }
+                            &[data-hairstyle="hairstyle-12"]{
+                                top: 14px;
+                            }
+                            &[data-hairstyle="hairstyle-13"]{
+                                top: 6px;
+                            }
+                        }
+                        &.head{
+                            position: absolute;
+                            left: 27.8%;
+                            top: 11%;
+                            z-index: 1;
+                        }
+                        &.body{
+                            position: absolute;
+                            left: 28%;
+                            top: 37%;
+                        }
+                    }
+                }
+                &-gears {
+                // width: 100%;
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr;
+                // grid-gap: 40px;
+                // margin-top: 70px;
+                // max-width: 380px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                @media #{$mobilelarge} {
+                    // grid-gap: 10px;
+                }
+                &__item {
+                    position: absolute;
+                    &:first-child {
+                    width: 170px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: -70px;
+                    }
+                    &:nth-child(2) {
+                    top: 62%;
+                    left: -45px;
+                    @media #{$mobilelarge} {
+                        top: 63%;
+                        left: -46px;
+                    }
+                    }
+                    &:last-child {
+                    right: -70px;
+                    top: 63%;
+                    @media #{$mobilelarge} {
+                        right: -50px;
+                        top: 65%;
+                    }
+                    }
+                    h3 {
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #6f7a88;
+                    text-transform: capitalize;
+                    margin: 0 auto 8px;
+                    @media #{$mobilelarge} {
+                        font-size: 15px;
+                    }
+                    }
+                    &-equip {
+                    display: flex;
+                    align-items: center;
+                    // width: 100px;
+                    // height: 100px;
+                    justify-content: center;
+                    // border: 2px solid #9ecfee;
+                    // border-radius: 20px;
+                    margin: 0 auto;
+                    // padding: 10px;
+                    @media #{$mobilelarge} {
+                        // width: 95px;
+                        // height: 95px;
+                    }
+                    img {
+                        width: 100%;
+                        position: relative;
+                    }
+                    .hat-hat-8 {
+                        top: -10px;
+                    }
+                    .hat-hat-5 {
+                        left: -5px;
+                        top: -10px;
+                    }
+                    img.avatar-avatar-7.hat-hat-1,
+                    img.avatar-avatar-3.hat-hat-1,
+                    img.avatar-avatar-9.hat-hat-1,
+                    img.avatar-avatar-11.hat-hat-1 {
+                        width: 160px;
+                        left: -4px;
+                    }
+                    .hat-hat-11 {
+                        top: 20px;
+                    }
+                    img.avatar-avatar-7.hat-hat-11,
+                    img.avatar-avatar-3.hat-hat-2,
+                    img.avatar-avatar-11.hat-hat-2 {
+                        left: -5px;
+                    }
+                    img.avatar-avatar-5.hat-hat-2,
+                    img.avatar-avatar-9.hat-hat-2 {
+                        left: -3px;
+                    }
+                    .headphones-headphone-2,
+                    .headphones-backpack-3 {
+                        right: 20px;
+                        @media #{$mobilelarge} {
+                        right: 0;
+                        }
+                    }
+                    .headphones-headphone-5,
+                    .headphones-backpack-6 {
+                        top: 13px;
+                        right: 10px;
+                        @media #{$mobilelarge} {
+                        top: 6px;
+                        right: 0;
+                        }
+                    }
+                    .headphones-headphone-4,
+                    .headphones-headphone-1 {
+                        @media #{$mobilelarge} {
+                        right: -23px;
+                        top: -5px;
+                        }
+                    }
+                    }
+                }
+                }
+                &-store {
+                    background: #fff;
+                    padding: 60px 0px 60px 60px;
+
+                    @media only screen and (max-width : 1088px) {
+                        padding-left: 15px;
+                    }
+                    @media #{$medium} {
+                        padding-left: 60px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-left:0px !important;
+                        flex-direction: column;
+                    }
+                    @media #{$mobilelarge} {
+                        padding: 15px !important;
+                        overflow: hidden;
+                        display: block;;
+                    }
+                }
+                &-heading {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                @media #{$mobilelarge} {
+                    flex-direction: column;
+                }
+                h2 {
+                    font-weight: 600;
+                    font-size: 36px;
+                    line-height: 48px;
+                    color: #2e425a;
+                    margin: 0;
+                }
+                .coin-balance {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 600;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #2e425a;
+                    white-space: nowrap;
+                    > svg {
+                    margin: 0 8px;
+                    }
+                    &__current {
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #56667a;
+                    }
+                }
+            
+                &_sub {
+                    font-family: $sofia;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 30px;
+                    color: #6f7a88;
+                    margin-top: 16px;
+                }
+                }
+            
+                &-categories {
+                    margin-bottom: 30px;
+                    padding-right:60px;
+                    display:grid;
+                    grid-template-columns:1fr 1fr 1fr;
+                    grid-column-gap:15px;
+
+                    @media #{$medium} {
+                        padding-right:0px;
+                    }
+
+                    @media #{$tabletlarge} {
+                        white-space: nowrap;
+                        display: flex;
+                        overflow: auto;
+                        padding:0px;
+                        grid-column-gap:0px;
+                    }
+                    @media #{$mobile} {
+                        flex-direction: column;
+                    }
+                    &__item {
+                        border: 1px solid #6B6F72;
+                        border-radius: 6px;
+                        padding: 8px 16px;
+                        margin-right: 8px;
+                        margin-bottom: 8px;
+                        cursor: pointer;
+                        transition: 0.5s all ease;
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 16px;
+                        letter-spacing: 0.03em;
+                        text-transform: uppercase;
+                        color: #6B6F72;
+                        text-align: center;
+                        &:hover,
+                        &.active {
+                            background: #5D53C0;
+                            border: 1px solid #5D53C0;
+                            border-radius: 6px;
+                            color:#ffffff;
+                        }
+                    }
+                    &__list {
+                        max-height: 515px;
+                        margin: 0 -20px;
+                        padding: 0 20px;
+                        
+                        @media #{$medium}{
+                            max-width: 100%;
+                            width:450px;
+                        }
+                        
+                        @media #{$mobilelarge}{
+                            max-width: none;
+                            width:100%;
+                            margin:auto;
+                        }
+                    
+                        &-scroll{
+                            max-height: 435px;
+                            overflow: auto;
+                            padding-right: 30px;
+                            margin-right: 24px;
+
+                            @media #{$medium} {
+                                padding-right: 0px;
+                                margin-right: 0px;
+                            }
+
+                            @media #{$tabletlarge} {
+                                padding-right: 10px;
+                                margin-right: -10px;
+                            }
+
+                            &::-webkit-scrollbar {
+                                width: 10px;
+                                position: absolute;
+                                margin-left: 20px;
+                            }
+                            &::-webkit-scrollbar-track {
+                                background: #DDDAF4;
+                                border-radius: 100px;
+                            }
+                            &::-webkit-scrollbar-thumb {
+                                background: #5D53C0;
+                                border-radius: 100px;
+                            }
+                            
+                        }
+                        &-wrapper {
+                            display: grid;
+                            grid-template-columns: repeat(auto-fit, minmax(162px, 1fr));
+                            column-gap: 15px;
+                            row-gap: 15px;
+                            overflow: hidden;
+                            height: auto;
+                            @media #{$mobilelarge} {
+                                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                            }
+                            
+
+                            &.avatar-active {
+                                .avatars-categories__img {
+                                border-radius: 100%;
+                                filter: drop-shadow(0px 0px 15px rgba(88, 104, 123, 0.1));
+                                background: #e4f1fb;
+                                border: 6px solid #fff;
+                                padding-top: 20px;
+                                    img {
+                                        object-fit: contain;
+                                        width: 100%;
+                                        max-width: 81px;
+                                        object-position: top center;
+                                        height: auto;
+                                        height: 94px;
+                                    }
+                                }
+                            }
+                        }
+                    
+
+                        &-sub-categories{
+                            display:flex;
+                            border-bottom: 1px solid #E6E4F6;
+                            margin-bottom:30px;
+                            margin-right:60px;
+                            max-width: 420px;
+                            width: 100%;
+                            @media #{$tabletlarge} {
+                                margin-left:0px;
+                            }
+                            @media #{$mobilelarge} {
+                                width: calc(100% - 41px) !important;
+                                margin-left:auto;
+                                margin-right:auto;
+                            }
+                           
+
+                            .slick-next{
+                                position: absolute;
+                                right: -45px;
+                                left: auto;
+                                background: #E6E4F6;
+                                box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+                                border-radius: 8px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                top: 11px;
+                            }
+                            .slick-prev{
+                                position: absolute;
+                                left: -45px;
+                                right: auto;
+                                background: #E6E4F6;
+                                box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+                                border-radius: 8px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                top: 11px;
+                            }
+
+                            
+
+                            div{
+                                
+                                
+                                button{
+                                    background:none;
+                                    border:none;
+                                    font-family: 'Mikado';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 14px;
+                                    line-height: 16px;
+                                    
+                                    padding:0px;
+                                    margin-right:32px;
+                                    border-radius:0px;
+                                    padding-bottom:10px;
+                                    border-bottom: 1px solid transparent;
+                                    color: #6B6F72;
+                                    &.active, &:hover{
+                                        border-bottom:3px solid #5D53C0;
+                                        color: #5D53C0;
+                                        
+                                    }
+                                }
+                            }
+                        }
+
+                        &.list-clothing{
+                            .avatars-categories__list-sub-categories{
+                                div{
+                                    flex:1;
+                                    padding:0px 12px;
+                                    &:last-child{
+                                        padding-right:0px;
+                                    }
+                                    &:first-child{
+                                        padding-left:0px;
+                                    }
+                                    button{
+                                        margin:0px;
+                                    }
+                                    &:last-child{
+                                        button{
+                                            margin-left:0px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        &.list-avatar{
+                            .sub-category-skin-color, .sub-category-hair-color{
+                                grid-template-columns: repeat(auto-fit, minmax(68px, 1fr));
+                                .avatars-categories__list-item{
+                                    background:none;
+                                    padding:0px;
+                                    position: relative;
+                                    border: 2px solid transparent;
+                                    border-radius: 14px;
+                                    padding: 0.5px 2px;
+                                    .avatars-categories__info{
+                                        display:none;
+                                    }
+                                    .avatars-categories__img{
+                                        width:100%;
+                                        height:68px;
+                                        margin:0px;
+                                    }
+                                    &:hover{
+                                        border: 2px solid #F2A952;
+                                    }
+                                }
+                            }
+                            .sub-category-hairstyle{
+                                grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+                                
+
+                                .avatars-categories__list-item{
+                                    background: #F8F7FF;
+                                    border-radius: 10px;
+                                    padding: 20px;
+                                    justify-content: center;
+                                    display: flex;
+                                    min-height: 130px;
+                                    max-width: 130px;
+
+                                    .avatars-categories__info{
+                                        display:none;
+                                    }
+                                    .avatars-categories__img{
+                                        width:80px;
+                                        height: auto;
+                                        margin:0px;
+                                    }
+                                }
+                            }
+                            .sub-category-hijabs{
+                                grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+                                .avatars-categories__list-item{
+                                    background: #F8F7FF;
+                                    border-radius: 10px;
+                                    padding: 20px;
+                                    justify-content: center;
+                                    display: flex;
+                                    min-height: 130px;
+                                    max-width: 130px;
+
+                                    .avatars-categories__info{
+                                        display:none;
+                                    }
+                                    .avatars-categories__img{
+                                        width:80px;
+                                        height: auto;
+                                        margin:0px;
+                                    }
+                                }
+                            }
+                            .item-avatar{
+                                cursor:pointer
+                            }
+                        }
+
+                        @media #{$mobile} {
+                            &.list-clothing, &.list-accessory{
+                                .avatars-categories__list-wrapper{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    flex-direction: column;
+                                }
+                            }
+                        }
+            
+                        &-item {
+                        background: #F8F7FF;
+                        border: 1px solid #E6E4F6;
+                        border-radius: 8px;
+                        padding: 24px 15px 20px;
+                        max-width: 200px;
+                            &:hover,
+                            &.active,
+                            &.equipped {
+                                border: 2px solid #F2A952 !important;
+                                .btn-buy {
+                                    background: #B0D178;
+                                    border-radius: 100px;
+                                    font-family: 'Mikado';
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 12px;
+                                    line-height: 20px;
+                                    letter-spacing: 0.04em;
+                                    text-transform: uppercase;
+                                    color: #FFFFFF;
+                                    border:none;
+                                    display: block;
+                                    align-items: center;
+                                    justify-content: center;
+                                    max-width: 140px;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    padding: 0px;
+                                }
+                                .btn-preview{
+                                    display: flex !important;
+                                }
+                            }
+                        }
+                    }
+
+                    &__img {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 120px;
+                        height: 85px;
+                        overflow: hidden;
+                        margin: 0 auto 16px;
+                    }
+                    &__info {
+                        .required-coins {
+                            font-family: 'Mikado';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 13px;
+                            line-height: 20px;
+                            color: #37394A;
+                            text-align: center;
+                            &.current{
+                                color: #5D53C0 !important;
+                            }
+                        > svg,img {
+                            margin-right: 8px;
+                        }
+                        }
+                
+                        .btn-buy {
+                            border-radius: 8px;
+                            font-family: 'Mikado';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 12px;
+                            line-height: 20px;
+                            letter-spacing: 0.04em;
+                            text-transform: uppercase;
+                            color: #FFFFFF;
+                            margin: 16px auto 0;
+                            width: 100%;
+                            height: 36px;
+                            background: #BFBFBF;
+                            border-radius: 100px;
+                            border:none;
+                            display: block;
+                            align-items: center;
+                            justify-content: center;
+                            max-width: 140px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            padding: 0px;
+                        }
+                    }
+                }
+            }
+
+            .btn-buy .equip{
+                display:inline-block
+            }
+            .btn-buy .unequip{
+                display:none;
+            }
+            .btn-buy:hover .equip{
+                display:none
+            }
+            .btn-buy:hover .unequip{
+                display:inline-block
+            }
+            .avatars-main {
+                position: relative;
+            }
+
+            .btn-preview{
+                color: var(--brand-purple, #5D53C0);
+                font-family: Mikado;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 0.48px;
+                text-transform: uppercase;
+                width:100%;
+                align-items: center;
+                justify-content: center;
+                border:none;
+                padding:0px;
+                margin-top:12px;
+                background:none;
+                display: none;
+            }
+            
+        }
+    }
+
+        
+    #successModal,
+    #confirmationModal,
+    #successModalEquip {
+        align-items: center;
+        .modal-content {
+            margin: auto;
+            max-width: 500px;
+            padding: 33px 20px 52px;
+            text-align: center;
+            background: #fff;
+            box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.05);
+            border-radius: 24px;
+            h2 {
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 31px;
+                text-align: center;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                background: #F2A952;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 14px 24px;
+                width: 250px;
+                margin: -60px auto 55px auto;
+            
+                @media #{$mobilesmall} {
+                    font-size: 19px;
+                    padding: 6px 7px;
+                    margin-top: -60px;
+                    width:auto;
+                    max-width: calc(100% - 50px);
+                }
+            }
+            .gear-item {
+            margin: 0 auto 24px;
+            > img {
+                max-width: 160px;
+            }
+            &.avatar-active {
+                border-radius: 100%;
+                -webkit-filter: drop-shadow(0px 0px 15px rgba(88, 104, 123, 0.1));
+                filter: drop-shadow(0px 0px 15px rgba(88, 104, 123, 0.1));
+                background: #e4f1fb;
+                border: 8px solid #fff;
+                padding-top: 20px;
+                width: 160px;
+                height: 160px;
+                overflow: hidden;
+                > img {
+                max-width: 89px;
+                height: 130px;
+                margin: 0;
+                }
+            }
+            }
+            > img {
+            max-width: 160px;
+            margin: 0 auto 24px;
+            }
+            p {
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                color: #37394A;
+                margin-bottom:0px;
+                
+                @media #{$mobile} {
+                    font-size: 18px;
+                    line-height: 31px;
+                }
+
+            }
+            .coin-price {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0 auto;
+            svg {
+                margin-right: 12px;
+            }
+            &__main {
+                font-family: $museo;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 32px;
+                color: #2e425a;
+            }
+            }
+            .btn-buynow {
+                width: 100%;
+                max-width: 320px;
+                height: 56px;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: #ffffff;
+                margin: 24px auto 0;
+                background: #B0D178;
+                border-radius: 100px;
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: 0.08em;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                border:none;
+
+                @media #{$mobile} {
+                    font-size: 18px;
+                    line-height: 31px;
+                    height: 48px;
+                }
+            }
+            .btn-goback{
+                width:100%;
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 20px;
+                letter-spacing: 0.04em;
+                text-transform: uppercase;
+                color: #5D53C0;
+                padding: 18px 10px;
+                max-width: 320px;
+                height: 56px;
+                border: 1px solid #5D53C0;
+                border-radius: 100px;
+                background:none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin:16px auto;
+                @media #{$mobile} {
+                    font-size: 18px;
+                    line-height: 31px;
+                    height: 48px;
+                }
+            }
+
+            
+        }
+
+
+
+        .success-btn {
+            display: grid;
+            row-gap: 16px;
+            margin-top: 24px;
+            button {
+            max-width: 280px;
+            width: 100%;
+            height: 56px;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: #ffffff;
+            margin: 0 auto;
+            &.btn-equipnow {
+                background: #98c850;
+                box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.1);
+            }
+            }
+        }
+    }
+
+    #successModalEquip{
+        .modal-content{
+            h2{
+                background: #B0D178;
+            }
+        }
+    }
+    #successModal{
+        .modal-content{
+            max-width: 700px;
+            padding:0px;
+            h2{
+                margin-bottom: 0px;
+                margin-top: 0px;
+                position: absolute;
+                left: 33%;
+                top: -33px;
+                background: #B0D178;
+                border-radius: 10px;
+                
+                @media #{$mobilelarge} {
+                    margin-bottom: -25px;
+                    position: relative;
+                    left: 0;
+                    top: 0;
+                    margin-top: -30px;
+                }
+                
+            }
+            .unlocked-item{
+                display:grid;
+                grid-template-columns: 280px 1fr;
+
+                @media #{$medium} {
+                    grid-template-columns: 1fr;
+                    display: block;
+                }
+
+                .gear-item{
+                    background: #F8F7FF;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 24px 0px 0px 24px;
+
+                    @media #{$medium} {
+                        border-radius: 24px;
+                        padding:60px 0px;
+                        margin-bottom: 5px;
+                    }
+
+                    img{
+                        max-width:200px;
+                        max-height: 150px;
+                        height: 100%;
+                    }
+                }
+                .gear-item-description{
+                    padding:72px 35px 54px 35px;
+                    @media #{$medium} {
+                        padding:10px 10px 30px 10px;
+                    }
+                    .title{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 36px;
+                        text-align: center;
+                        color: #37394A;
+                    }
+                    .description{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: #6B6F72;
+                        margin-top:20px;
+                    }
+                    .btn-equipnow{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 20px;
+                        letter-spacing: 0.08em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        display: inline-flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                        width: 280px;
+                        height: 56px;
+                        background: #5D53C0;
+                        border-radius: 100px;
+                        margin:0px auto 0px auto;
+                        box-shadow: none;
+                        @media #{$mobile} {
+                            font-size: 18px;
+                            line-height: 31px;
+                            height: 48px;
+                            width:auto;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+
+.avatars-categories__list-wrapper .avatars-categories__img > img {
+    height: 100%;
+    width: auto;
+}
+
+.avatars-categories__list-item.item-avatar img {
+    width: auto !important;
+    height: auto !important;
+}
+
+.avatars-categories__list-item.item-clothing[data-subtype="socks"] .avatars-categories__img img,
+.avatars-categories__list-item.item-clothing[data-subtype="shoes"] .avatars-categories__img img {
+    width: 100%!important;
+    height: auto !important;
+}
+
+#successModal .gear-item img {
+    width: auto !important;
+    height: auto !important;
+}

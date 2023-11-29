@@ -1,0 +1,551 @@
+#rewards-history.modal .modal-content {
+  border-radius: 24px;
+  background: #FFF;
+  padding: 0px;
+  max-width: 920px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  #rewards-history.modal .modal-content {
+    max-width: 100%;
+    margin: 0px 40px;
+  }
+}
+
+#rewards-history.modal .modal-content .close {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  #rewards-history.modal .modal-content .content {
+    height: 85vh;
+    overflow: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #rewards-history.modal .modal-content .content {
+    height: 85vh;
+    overflow: auto;
+  }
+}
+
+#rewards-history.modal .modal-content .content .top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 600px;
+      grid-template-columns: 1fr 600px;
+  color: var(--text-dark, #37394A);
+  font-size: 20px;
+  font-family: Mikado;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #E7E9EE;
+}
+
+@media only screen and (max-width: 768px) {
+  #rewards-history.modal .modal-content .content .top {
+    -ms-grid-columns: 1fr 70%;
+        grid-template-columns: 1fr 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #rewards-history.modal .modal-content .content .top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#rewards-history.modal .modal-content .content .top .text {
+  border-right: 1px solid #E7E9EE;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0px 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  #rewards-history.modal .modal-content .content .top .text {
+    border-right: none;
+  }
+}
+
+#rewards-history.modal .modal-content .content .top .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  width: 100%;
+  color: #37394A;
+  text-align: right;
+  font-family: Mikado;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  padding-right: 40px;
+}
+
+#rewards-history.modal .modal-content .content .top .buttons svg {
+  margin-right: 10px;
+}
+
+#rewards-history.modal .modal-content .content .top .buttons span.points {
+  color: #5D53C0;
+}
+
+@media only screen and (max-width: 480px) {
+  #rewards-history.modal .modal-content .content .top .buttons {
+    padding-bottom: 20px;
+    padding-right: 0px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+#rewards-history.modal .modal-content .content .main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 600px;
+      grid-template-columns: 1fr 600px;
+}
+
+@media only screen and (max-width: 768px) {
+  #rewards-history.modal .modal-content .content .main {
+    -ms-grid-columns: 1fr 70%;
+        grid-template-columns: 1fr 70%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #rewards-history.modal .modal-content .content .main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#rewards-history.modal .modal-content .content .main .left {
+  border-right: 1px solid #E7E9EE;
+}
+
+@media only screen and (max-width: 480px) {
+  #rewards-history.modal .modal-content .content .main .left {
+    border-right: none;
+  }
+}
+
+#rewards-history.modal .modal-content .content .main .left .student-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 70px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#rewards-history.modal .modal-content .content .main .left .student-details h5 {
+  color: var(--text-dark, #37394A);
+  text-align: center;
+  font-size: 24px;
+  font-family: Mikado;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+#rewards-history.modal .modal-content .content .main .left .list {
+  overflow: auto;
+  max-height: 560px;
+}
+
+#rewards-history.modal .modal-content .content .main .left .list .item {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50px 1fr;
+      grid-template-columns: 50px 1fr;
+  grid-column-gap: 16px;
+  border-bottom: 1px solid #E7E9EE;
+  padding: 18px 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#rewards-history.modal .modal-content .content .main .left .list .item .avatar {
+  border-radius: 100px;
+  background: var(--text-border, #E7E9EE);
+  padding: 2px;
+  position: relative;
+}
+
+#rewards-history.modal .modal-content .content .main .left .list .item .avatar img {
+  max-width: 86px;
+  border-radius: 86px;
+  width: 100%;
+  height: 46px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background: #f8f7ff;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+#rewards-history.modal .modal-content .content .main .left .list .item .name {
+  color: var(--text-dark, #37394A);
+  text-align: left;
+  font-family: Mikado;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+#rewards-history.modal .modal-content .content .main .right {
+  padding: 20px;
+  max-height: 560px;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  #rewards-history.modal .modal-content .content .main .right {
+    overflow: none;
+  }
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group {
+  margin-bottom: 30px;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .date {
+  color: var(--text-dark, #37394A);
+  font-family: Mikado;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 18px;
+  margin-bottom: 16px;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item.positive {
+  border-radius: 20px;
+  border: 1px solid var(--brand-green, #98C03D);
+  background: -webkit-gradient(linear, left bottom, left top, from(#FAFCF5), to(#FAFCF5)), #FFF;
+  background: linear-gradient(0deg, #FAFCF5 0%, #FAFCF5 100%), #FFF;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item.positive .points {
+  color: var(--brand-green, #98C03D);
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item.needs-work {
+  border-radius: 20px;
+  border: 1px solid var(--accent-red, #EF746F);
+  background: -webkit-gradient(linear, left bottom, left top, from(#FEF8F8), to(#FEF8F8)), #FFF;
+  background: linear-gradient(0deg, #FEF8F8 0%, #FEF8F8 100%), #FFF;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item.needs-work .points {
+  color: var(--brand-green, #EF746F);
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: right;
+  font-family: Mikado;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .details {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .details .title {
+  color: var(--text-dark, #37394A);
+  font-family: Mikado;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .details .title .comment {
+  color: var(--text-dark, #37394A);
+  font-family: Mikado;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+  text-transform: capitalize;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 5px 0px;
+  padding-right: 30px;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .details .teacher-classroom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: var(--text-dark, #37394A);
+  font-family: Mikado;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-transform: capitalize;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .details .teacher-classroom img {
+  margin-right: 10px;
+  max-width: 28px;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .details .teacher-classroom svg {
+  margin: 0px 10px;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+#rewards-history.modal .modal-content .content .main .right .reward-group .items .item .image img {
+  max-width: 50px;
+}
+
+#masthead > .site-header-container {
+  position: relative;
+}
+
+#masthead > .site-header-container .rewards-notification-container {
+  position: absolute;
+  top: 147px;
+  right: -70px;
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360px;
+  padding: 40px 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  border-radius: 24px;
+  background: var(--brand-dark-bg, #221C56);
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification.positive {
+  border-radius: 24px;
+  border: 1px solid var(--brand-green, #98C03D);
+  background: #FAFCF5;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification.positive .points-total {
+  color: var(--brand-green, #98C03D);
+  text-align: right;
+  font-family: Mikado;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 100% */
+  text-transform: capitalize;
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification.needs-work {
+  border-radius: 24px;
+  border: 1px solid var(--accent-red, #EF746F);
+  background: #FEF8F8;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification.needs-work .points-total {
+  color: var(--brand-green, #EF746F);
+  text-align: right;
+  font-family: Mikado;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  /* 100% */
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 1024px) {
+  #masthead > .site-header-container .rewards-notification-container .rewards-notification {
+    right: 0px;
+  }
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification .close {
+  position: absolute;
+  right: -15px;
+  top: -18px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification .content .text {
+  color: var(--text-dark, #37394A);
+  text-align: center;
+  font-family: Mikado;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  /* 24px */
+  line-height: 150%;
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification .content .text h2 {
+  color: var(--text-dark, #37394A);
+  text-align: center;
+  font-family: Mikado;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  /* 30px */
+  margin: 12px 0px;
+}
+
+#masthead > .site-header-container .rewards-notification-container .rewards-notification .content a.view-points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  padding: 12px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--brand-green, #98C03D);
+  color: var(--accent-text-white, #FFF);
+  font-family: Mikado;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.12px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=rewards-history-global.css.map */

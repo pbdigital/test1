@@ -1,0 +1,690 @@
+.page-template-page-templates #login-report .tab, .page-template-page-templates #practice-report .tab {
+  display: none;
+}
+.page-template-page-templates #login-report .tab.active, .page-template-page-templates #practice-report .tab.active {
+  display: block;
+}
+.page-template-page-templates #login-report .heading, .page-template-page-templates #practice-report .heading {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #F0EFFC;
+  border-radius: 10px;
+  padding: 33px 20px;
+  margin-bottom: 30px;
+  align-items: center;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates #login-report .heading, .page-template-page-templates #practice-report .heading {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.page-template-page-templates #login-report .heading .breadcrumb, .page-template-page-templates #practice-report .heading .breadcrumb {
+  display: flex;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates #login-report .heading .breadcrumb, .page-template-page-templates #practice-report .heading .breadcrumb {
+    margin-bottom: 10px;
+  }
+}
+.page-template-page-templates #login-report .heading .breadcrumb span, .page-template-page-templates #practice-report .heading .breadcrumb span {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #6B6F72;
+}
+.page-template-page-templates #login-report .heading .breadcrumb span.active, .page-template-page-templates #practice-report .heading .breadcrumb span.active {
+  color: #37394A;
+}
+.page-template-page-templates #login-report .heading .breadcrumb span.spacer, .page-template-page-templates #practice-report .heading .breadcrumb span.spacer {
+  margin: 0px 17px;
+}
+.page-template-page-templates #login-report .heading .searchbox .search, .page-template-page-templates #practice-report .heading .searchbox .search {
+  position: relative;
+  display: flex;
+}
+.page-template-page-templates #login-report .heading .searchbox .search svg, .page-template-page-templates #practice-report .heading .searchbox .search svg {
+  position: absolute;
+  position: absolute;
+  top: 13px;
+  left: 14px;
+}
+.page-template-page-templates #login-report .heading .searchbox .search input[type=text], .page-template-page-templates #practice-report .heading .searchbox .search input[type=text] {
+  background: #FFFFFF;
+  border: 1px solid #E7E9EE;
+  border-radius: 10px;
+  width: 340px;
+  height: 44px;
+  padding-left: 45px;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates #login-report .heading .searchbox .search input[type=text], .page-template-page-templates #practice-report .heading .searchbox .search input[type=text] {
+    width: 100%;
+  }
+}
+.page-template-page-templates #login-report .heading .searchbox .search button, .page-template-page-templates #practice-report .heading .searchbox .search button {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5D53C0;
+  margin: 0px 0px 0px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 44px;
+  border: 1px solid #5D53C0;
+  border-radius: 8px;
+  background: none;
+}
+.page-template-page-templates .sub-filter {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .sub-filter {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+    grid-row-gap: 10px;
+  }
+}
+.page-template-page-templates .sub-filter label {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #37394A;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .sub-filter label {
+    font-size: 19px;
+  }
+}
+.page-template-page-templates .sub-filter input[type=text], .page-template-page-templates .sub-filter select {
+  background: #FFFFFF;
+  border: 1px solid #E7E9EE;
+  border-radius: 10px;
+  width: 280px;
+  height: 44px;
+  margin: 0px 20px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-transform: capitalize;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .sub-filter input[type=text], .page-template-page-templates .sub-filter select {
+    width: 100%;
+    margin: 0px;
+  }
+}
+.page-template-page-templates .sub-filter input[type=text] option, .page-template-page-templates .sub-filter select option {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-transform: capitalize;
+}
+.page-template-page-templates .sub-filter .over-the-period-container, .page-template-page-templates .sub-filter .over-the-period-container-practice, .page-template-page-templates .sub-filter .dropdown-container {
+  position: relative;
+  margin-left: 20px;
+  cursor: pointer;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .sub-filter .over-the-period-container, .page-template-page-templates .sub-filter .over-the-period-container-practice, .page-template-page-templates .sub-filter .dropdown-container {
+    margin: 0px;
+  }
+}
+.page-template-page-templates .sub-filter .over-the-period-container .dropdown, .page-template-page-templates .sub-filter .over-the-period-container-practice .dropdown, .page-template-page-templates .sub-filter .dropdown-container .dropdown {
+  display: none;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #E7E9EE;
+  box-shadow: 0px 5px 10px rgba(93, 83, 192, 0.05);
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+.page-template-page-templates .sub-filter .over-the-period-container .dropdown .item, .page-template-page-templates .sub-filter .over-the-period-container-practice .dropdown .item, .page-template-page-templates .sub-filter .dropdown-container .dropdown .item {
+  border-bottom: 1px solid #E7E9EE;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #6B6F72;
+  padding: 10px 0px;
+}
+.page-template-page-templates .sub-filter .over-the-period-container .dropdown .item:last-child, .page-template-page-templates .sub-filter .over-the-period-container-practice .dropdown .item:last-child, .page-template-page-templates .sub-filter .dropdown-container .dropdown .item:last-child {
+  border-bottom: none;
+}
+.page-template-page-templates .sub-filter .over-the-period-container .dropdown.active, .page-template-page-templates .sub-filter .over-the-period-container-practice .dropdown.active, .page-template-page-templates .sub-filter .dropdown-container .dropdown.active {
+  display: block;
+  top: 53px;
+}
+.page-template-page-templates .sub-filter .over-the-period-container > svg, .page-template-page-templates .sub-filter .over-the-period-container-practice > svg, .page-template-page-templates .sub-filter .dropdown-container > svg {
+  position: absolute;
+  right: 20px;
+  top: 18px;
+}
+.page-template-page-templates .sub-filter .over-the-period-container span, .page-template-page-templates .sub-filter .over-the-period-container-practice span, .page-template-page-templates .sub-filter .dropdown-container span {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  background: #FFFFFF;
+  border: 1px solid #E7E9EE;
+  border-radius: 10px;
+  width: 280px;
+  height: 44px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .sub-filter .over-the-period-container span, .page-template-page-templates .sub-filter .over-the-period-container-practice span, .page-template-page-templates .sub-filter .dropdown-container span {
+    width: 100%;
+  }
+}
+.page-template-page-templates .login-logs-details .card, .page-template-page-templates .practice-logs-details .card {
+  border: 1px solid #E6E4F6;
+  border-radius: 12px;
+  background: #ffffff;
+}
+.page-template-page-templates .login-logs-details .card .label, .page-template-page-templates .practice-logs-details .card .label {
+  border-bottom: 1px solid #E6E4F6;
+  padding: 10px 13px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.page-template-page-templates .login-logs-details .card .content, .page-template-page-templates .practice-logs-details .card .content {
+  padding: 25px 14px;
+}
+.page-template-page-templates .login-logs-details .top, .page-template-page-templates .practice-logs-details .top {
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 275px 1fr;
+  grid-column-gap: 25px;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .login-logs-details .top, .page-template-page-templates .practice-logs-details .top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+  }
+}
+.page-template-page-templates .login-logs-details .top .card.profile .profile-details, .page-template-page-templates .practice-logs-details .top .card.profile .profile-details {
+  display: flex;
+}
+.page-template-page-templates .login-logs-details .top .card.profile .profile-details img, .page-template-page-templates .practice-logs-details .top .card.profile .profile-details img {
+  width: 46px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.page-template-page-templates .login-logs-details .top .card.profile .profile-details > div .name, .page-template-page-templates .practice-logs-details .top .card.profile .profile-details > div .name {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D53C0;
+}
+.page-template-page-templates .login-logs-details .top .card.profile .profile-details > div .email, .page-template-page-templates .practice-logs-details .top .card.profile .profile-details > div .email {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #6B6F72;
+}
+.page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-head, .page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-body, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-head, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 20px 20px 39px 20px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
+  border-bottom: 3px solid #E6E4F6;
+  margin-right: -14px;
+  margin-left: -14px;
+}
+.page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-head div, .page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-body div, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-head div, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-body div {
+  text-align: center;
+}
+.page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-head.table-practice-log-head, .page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-head.table-practice-log-body, .page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-body.table-practice-log-head, .page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-body.table-practice-log-body, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-head.table-practice-log-head, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-head.table-practice-log-body, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-body.table-practice-log-head, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-body.table-practice-log-body {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.page-template-page-templates .login-logs-details .top .card.practice-summary .table.content .table-body, .page-template-page-templates .practice-logs-details .top .card.practice-summary .table.content .table-body {
+  border-bottom: none;
+  padding: 20px 20px 0px 20px;
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs, .page-template-page-templates .practice-logs-details .bottom .login-logs {
+  display: grid;
+  grid-template-columns: 1fr 480px;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .login-logs-details .bottom .login-logs, .page-template-page-templates .practice-logs-details .bottom .login-logs {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    grid-auto-flow: column-reverse;
+    flex-direction: column-reverse;
+  }
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs .lists, .page-template-page-templates .practice-logs-details .bottom .login-logs .lists {
+  padding: 0px 40px 40px 0px;
+  max-height: 460px;
+  overflow: auto;
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs .lists .list-item, .page-template-page-templates .practice-logs-details .bottom .login-logs .lists .list-item {
+  display: flex;
+  border-bottom: 1px solid #E7E9EE;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs .lists .list-item img, .page-template-page-templates .practice-logs-details .bottom .login-logs .lists .list-item img {
+  width: 46px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs .lists .list-item svg, .page-template-page-templates .practice-logs-details .bottom .login-logs .lists .list-item svg {
+  margin-right: 16px;
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs .lists .list-item .date, .page-template-page-templates .practice-logs-details .bottom .login-logs .lists .list-item .date {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #37394A;
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs .lists .list-item .date .mins, .page-template-page-templates .practice-logs-details .bottom .login-logs .lists .list-item .date .mins {
+  display: flex;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5D6A77;
+  margin-top: 10px;
+}
+.page-template-page-templates .login-logs-details .bottom .login-logs .lists .list-item .date .mins svg, .page-template-page-templates .practice-logs-details .bottom .login-logs .lists .list-item .date .mins svg {
+  margin-right: 6px;
+}
+.page-template-page-templates .login-logs-details .bottom .card .label, .page-template-page-templates .practice-logs-details .bottom .card .label {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #37394A;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  padding-left: 20px;
+}
+.page-template-page-templates .login-logs-table-container, .page-template-page-templates .practice-logs-table-container {
+  border: 1px solid #E6E4F6;
+  border-radius: 12px 12px 12px 12px;
+  overflow: auto;
+  margin-top: 22px;
+  background: #fff;
+}
+.page-template-page-templates .login-logs-table-container .datatable-footer, .page-template-page-templates .practice-logs-table-container .datatable-footer {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  display: grid;
+  grid-template-columns: 200px 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table_filter, .page-template-page-templates .login-logs-table-container #practice-logs-table_filter, .page-template-page-templates .practice-logs-table-container #login-logs-table_filter, .page-template-page-templates .practice-logs-table-container #practice-logs-table_filter {
+  display: none;
+}
+.page-template-page-templates .login-logs-table-container .dataTables_length select, .page-template-page-templates .practice-logs-table-container .dataTables_length select {
+  width: 61px;
+  text-align: left;
+  margin: 0px 9px;
+  padding-left: 6px;
+  border: 1px solid #E6E4F6;
+  border-radius: 6px;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table, .page-template-page-templates .login-logs-table-container #practice-logs-table, .page-template-page-templates .practice-logs-table-container #login-logs-table, .page-template-page-templates .practice-logs-table-container #practice-logs-table {
+  border: none;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table thead, .page-template-page-templates .login-logs-table-container #practice-logs-table thead, .page-template-page-templates .practice-logs-table-container #login-logs-table thead, .page-template-page-templates .practice-logs-table-container #practice-logs-table thead {
+  background: #F0EFFC;
+  border: 1px solid #E6E4F6;
+  border-radius: 12px 12px 0px 0px;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table thead th, .page-template-page-templates .login-logs-table-container #practice-logs-table thead th, .page-template-page-templates .practice-logs-table-container #login-logs-table thead th, .page-template-page-templates .practice-logs-table-container #practice-logs-table thead th {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table tbody tr, .page-template-page-templates .login-logs-table-container #practice-logs-table tbody tr, .page-template-page-templates .practice-logs-table-container #login-logs-table tbody tr, .page-template-page-templates .practice-logs-table-container #practice-logs-table tbody tr {
+  background: #ffffff;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table thead .sorting, .page-template-page-templates .login-logs-table-container #practice-logs-table thead .sorting, .page-template-page-templates .practice-logs-table-container #login-logs-table thead .sorting, .page-template-page-templates .practice-logs-table-container #practice-logs-table thead .sorting {
+  background: url(../img/reporting/sorting-arrow.svg) no-repeat center right 15px;
+  background-size: 4px;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table tbody tr td, .page-template-page-templates .login-logs-table-container #practice-logs-table tbody tr td, .page-template-page-templates .practice-logs-table-container #login-logs-table tbody tr td, .page-template-page-templates .practice-logs-table-container #practice-logs-table tbody tr td {
+  cursor: pointer;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 22px;
+  border: none;
+  border-bottom: 1px solid #E6E4F6;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table tbody tr td .row-avg-complete, .page-template-page-templates .login-logs-table-container #practice-logs-table tbody tr td .row-avg-complete, .page-template-page-templates .practice-logs-table-container #login-logs-table tbody tr td .row-avg-complete, .page-template-page-templates .practice-logs-table-container #practice-logs-table tbody tr td .row-avg-complete {
+  border-bottom: 1px solid #E6E4F6;
+  padding-bottom: 16px;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table tbody tr td .row-avg-spent, .page-template-page-templates .login-logs-table-container #practice-logs-table tbody tr td .row-avg-spent, .page-template-page-templates .practice-logs-table-container #login-logs-table tbody tr td .row-avg-spent, .page-template-page-templates .practice-logs-table-container #practice-logs-table tbody tr td .row-avg-spent {
+  padding-top: 16px;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table tbody tr td span, .page-template-page-templates .login-logs-table-container #practice-logs-table tbody tr td span, .page-template-page-templates .practice-logs-table-container #login-logs-table tbody tr td span, .page-template-page-templates .practice-logs-table-container #practice-logs-table tbody tr td span {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  color: #6B6F72;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table tbody tr td span.value, .page-template-page-templates .login-logs-table-container #practice-logs-table tbody tr td span.value, .page-template-page-templates .practice-logs-table-container #login-logs-table tbody tr td span.value, .page-template-page-templates .practice-logs-table-container #practice-logs-table tbody tr td span.value {
+  font-weight: 400;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table tbody tr td.sorting_1, .page-template-page-templates .login-logs-table-container #practice-logs-table tbody tr td.sorting_1, .page-template-page-templates .practice-logs-table-container #login-logs-table tbody tr td.sorting_1, .page-template-page-templates .practice-logs-table-container #practice-logs-table tbody tr td.sorting_1 {
+  background: none !important;
+}
+.page-template-page-templates .login-logs-table-container #login-logs-table thead th, .page-template-page-templates .login-logs-table-container #practice-logs-table thead th, .page-template-page-templates .practice-logs-table-container #login-logs-table thead th, .page-template-page-templates .practice-logs-table-container #practice-logs-table thead th {
+  display: table-cell !important;
+}
+.page-template-page-templates .login-logs-table-container .dataTables_info, .page-template-page-templates .login-logs-table-container label, .page-template-page-templates .login-logs-table-container select, .page-template-page-templates .practice-logs-table-container .dataTables_info, .page-template-page-templates .practice-logs-table-container label, .page-template-page-templates .practice-logs-table-container select {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #6B6F72;
+  margin: 0px;
+}
+@media only screen and (max-width : 600px) {
+  .page-template-page-templates .login-logs-table-container .dataTables_info, .page-template-page-templates .login-logs-table-container label, .page-template-page-templates .login-logs-table-container select, .page-template-page-templates .practice-logs-table-container .dataTables_info, .page-template-page-templates .practice-logs-table-container label, .page-template-page-templates .practice-logs-table-container select {
+    font-size: 14px;
+  }
+}
+.page-template-page-templates .login-logs-table-container .dataTables_info, .page-template-page-templates .practice-logs-table-container .dataTables_info {
+  padding-top: 0px !important;
+}
+.page-template-page-templates .login-logs-table-container a.paginate_button, .page-template-page-templates .practice-logs-table-container a.paginate_button {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  color: #6B6F72 !important;
+  padding: 0px 9px;
+  background: none;
+}
+@media only screen and (max-width : 600px) {
+  .page-template-page-templates .login-logs-table-container a.paginate_button, .page-template-page-templates .practice-logs-table-container a.paginate_button {
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.page-template-page-templates .login-logs-table-container a.paginate_button:hover, .page-template-page-templates .login-logs-table-container a.paginate_button:active, .page-template-page-templates .practice-logs-table-container a.paginate_button:hover, .page-template-page-templates .practice-logs-table-container a.paginate_button:active {
+  background: none;
+  border: 1px solid transparent;
+  color: #6B6F72 !important;
+  padding: 0px 9px !important;
+  box-shadow: none;
+}
+.page-template-page-templates .login-logs-table-container a.paginate_button.current, .page-template-page-templates .practice-logs-table-container a.paginate_button.current {
+  color: #5D53C0 !important;
+  border: 1px solid #5D53C0 !important;
+  border-radius: 4px !important;
+  background: none;
+}
+.page-template-page-templates .calendar {
+  padding: 30px 40px;
+}
+@media only screen and (max-width : 768px) {
+  .page-template-page-templates .calendar {
+    padding: 0px 0px 10px 0px;
+  }
+}
+.page-template-page-templates .calendar .hide-full-calendar {
+  position: absolute;
+  left: -999999px;
+}
+.page-template-page-templates .calendar .src-calendar table {
+  margin: 0;
+  border: 0;
+}
+.page-template-page-templates .calendar .src-calendar table td,
+.page-template-page-templates .calendar .src-calendar table th {
+  border: 0;
+}
+.page-template-page-templates .calendar .src-calendar table th {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #37394a;
+  text-transform: uppercase;
+}
+.page-template-page-templates .calendar .src-calendar table th a {
+  color: #37394a;
+}
+.page-template-page-templates .calendar .src-calendar table a.fc-daygrid-day-number {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #37394a;
+  text-align: center;
+  color: #4d4d4d;
+  padding: 10px 4px;
+}
+.page-template-page-templates .calendar .src-calendar .fc-daygrid-day-events {
+  position: absolute;
+  margin: 0;
+  min-height: 1px;
+  top: calc(50% + 1px);
+  transform: translateY(-50%);
+}
+.page-template-page-templates .calendar .src-calendar .fc-daygrid-day-events a {
+  z-index: -1;
+  background: #b0d178;
+  border: 0;
+  height: 32px;
+  width: 32px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.page-template-page-templates .calendar .src-calendar .fc-day {
+  cursor: pointer;
+}
+.page-template-page-templates .calendar .src-calendar .fc-daygrid-more-link {
+  cursor: pointer;
+  text-indent: -9999999px;
+  float: left;
+  width: 32px;
+  height: 32px;
+  background: #5d53c0;
+  border-radius: 50%;
+  margin: 0 auto;
+  left: 49%;
+  transform: translateX(-50%);
+  top: -1px;
+}
+.page-template-page-templates .calendar .src-calendar tr td.active-streak:last-child::after {
+  display: none;
+}
+.page-template-page-templates .calendar .src-calendar .fc-day-today {
+  background-color: inherit !important;
+}
+.page-template-page-templates .calendar .src-calendar .fc-day-today.active-streak .fc-daygrid-day-number {
+  background: #b0d178;
+  top: 0;
+}
+.page-template-page-templates .calendar .src-calendar .fc-day-today .fc-daygrid-day-number {
+  width: 32px;
+  height: 32px;
+  background: #5d53c0;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.page-template-page-templates .calendar .src-calendar .active-streak {
+  position: relative;
+}
+.page-template-page-templates .calendar .src-calendar .active-streak.last-streak::after {
+  display: none;
+}
+.page-template-page-templates .calendar .src-calendar .active-streak.fc-daypast-nostreak::before {
+  content: "" !important;
+  background: none !important;
+  display: none !important;
+}
+.page-template-page-templates .calendar .src-calendar .active-streak::after {
+  content: "";
+  width: 50%;
+  height: 32px;
+  background: #eafbcf;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-48%);
+  z-index: -1;
+}
+.page-template-page-templates .calendar .src-calendar .active-streak ~ .active-streak::before {
+  content: "";
+  width: 50%;
+  height: 32px;
+  background: #eafbcf;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-48%);
+  z-index: -1;
+}
+.page-template-page-templates .calendar .src-calendar .active-streak .fc-daygrid-day-top {
+  z-index: 5;
+}
+.page-template-page-templates .calendar .src-calendar .active-streak .fc-daygrid-day-top a {
+  color: #fff;
+}
+.page-template-page-templates .calendar .src-calendar .fc-day-today .fc-daygrid-day-events::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  display: block;
+  position: absolute;
+  background: #f2a952;
+  border-radius: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
+.page-template-page-templates .calendar .src-calendar .fc-daygrid-day:not(.active-streak) + .active-streak::before {
+  display: none !important;
+}
+.page-template-page-templates .calendar .src-calendar .fc-day-past:not(.active-streak) + .active-streak::before {
+  display: none !important;
+}
+.page-template-page-templates .calendar .src-calendar .fc-daygrid-day-top {
+  justify-content: center;
+}
+.page-template-page-templates .calendar .src-calendar .fc-daygrid-day-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-template-page-templates .calendar .src-calendar .fc-scroller {
+  height: auto !important;
+  overflow-y: auto;
+}
+.page-template-page-templates .calendar .src-calendar .fc-toolbar-chunk .fc-button {
+  background: 0;
+  display: flex;
+  align-items: center;
+  box-shadow: none;
+  border: 1px solid #e7e9ee;
+  border-radius: 6px;
+  padding: 10px 13px;
+}
+.page-template-page-templates .calendar .src-calendar .fc-toolbar-chunk .fc-icon {
+  color: #324053;
+}
+.page-template-page-templates .calendar .src-calendar .fc-toolbar-title {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #37394a;
+}
+@media only screen and (max-width : 600px) {
+  .page-template-page-templates .calendar .src-calendar .fc-toolbar-title {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=login-report.css.map */

@@ -1,0 +1,1350 @@
+@charset "UTF-8";
+.page-template-reports-full #content.site-content > .container {
+  max-width: 100%;
+}
+
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .tclr-header .tclr-admin-nav {
+    display: block;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .tclr-header .tclr-admin-nav .tclr-admin-nav-items a.nav-tab {
+  background: none;
+  border: none;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #37394A;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-right: 40px;
+  padding-bottom: 15px;
+}
+.uo-reporting--frontend#tincanny-reporting .tclr-header .tclr-admin-nav .tclr-admin-nav-items a.nav-tab.nav-tab-active {
+  color: #5D53C0;
+  border-bottom: 2px solid #5D53C0;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .tclr-header .tclr-admin-nav .tclr-admin-nav-items a.nav-tab {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .tclr-header .tclr-admin-nav .tclr-admin-nav-items a.nav-tab {
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 5px;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .tclr-header--frontend .nav-tab-wrapper {
+  border-bottom: 1px solid #E6E4F6;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-reporting-dashboard-container {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #F0EFFC;
+  border-radius: 10px;
+  align-items: center;
+  padding: 20px;
+  grid-column-gap: 20px;
+}
+@media only screen and (max-width : 900px) {
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters {
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters {
+    grid-template-columns: 1fr;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-group-selector {
+  justify-content: flex-end;
+  background: none;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  align-items: center;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-group-selector {
+    margin-top: 20px;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-group-selector form {
+  margin: 0px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-group-selector form #reporting-group-selector__submit {
+  background: #B0D178;
+  border-radius: 8px;
+  padding: 12px 23px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-group-selector form .select2-selection {
+  height: 44px !important;
+  align-items: center;
+  display: flex;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-group-selector form .select2-selection__arrow b {
+  margin-top: 5px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-breadcrumbs {
+  padding: 0px;
+  margin: 0px;
+  background: none;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-breadcrumbs ul li span {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #6B6F72;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-breadcrumbs ul li span {
+    text-align: center;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single .breadcrumbs-filters .reporting-breadcrumbs ul li.reporting-breadcrumbs-item--current span {
+  color: #37394A;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox {
+  background: none;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-dashboard-col-heading {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox #coursesOverviewTable_wrapper .reporting-datatable__search, .uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search {
+  flex: 1;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox #coursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label, .uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-metabox #coursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label, .uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label {
+    flex-direction: column;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox #coursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label:before, .uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label:before {
+  text-align: left;
+  flex: 1;
+  content: "Courses";
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #37394A;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-metabox #coursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label:before, .uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label:before {
+    margin-bottom: 10px;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox #coursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label input[type=search], .uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label input[type=search] {
+  width: 340px;
+  max-width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E7E9EE;
+  border-radius: 10px;
+  background-size: 24px;
+  background-image: url(../img/reporting/search.svg);
+  background-position: left 10px center;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  height: 44px;
+  justify-content: flex-start;
+  color: #000000;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox #coursesOverviewTable_wrapper .reporting-datatable-top__middle, .uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable-top__middle {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search {
+  flex: 1;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox #usersOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label:before {
+  content: "Enrolled Users";
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__buttons {
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__buttons .dt-buttons .dt-button {
+  border: 1px solid #5D53C0;
+  border-radius: 8px;
+  padding: 0px 29px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5D53C0;
+  background: none;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__buttons .dt-buttons .dt-button.buttons-excel {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__table {
+  border: 1px solid #E6E4F6;
+  border-radius: 12px 12px 0px 0px;
+  overflow: auto;
+  margin-top: 22px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__top {
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom {
+  margin-top: 18px;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom {
+    flex-direction: column;
+    display: flex;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .dataTables_info, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom label, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom select {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #6B6F72;
+  margin: 0px;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .dataTables_info, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom label, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom select {
+    font-size: 12px;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .dataTables_length {
+  margin-left: 40px;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .dataTables_length {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom select {
+  border: 1px solid #E6E4F6;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  padding: 0px 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 10px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  color: #6B6F72 !important;
+  padding: 0px 9px;
+  background: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button.previous, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button.next {
+  font-size: 16px;
+  line-height: 22px;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button.previous, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button.next {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button {
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button:hover, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button:active {
+  background: none;
+  border: 1px solid transparent;
+  color: #6B6F72 !important;
+  padding: 0px 9px !important;
+  box-shadow: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button.current {
+  color: #5D53C0 !important;
+  border: 1px solid #5D53C0;
+  border-radius: 4px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table {
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table thead {
+  background: #F0EFFC;
+  border: none;
+  border-bottom: 2px solid #E6E4F6;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table thead th {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  border: none;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table tbody tr {
+  background: #ffffff;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable thead th:last-child, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable thead th:nth-last-child(2), .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable thead th:first-child {
+  display: none !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable thead .sorting {
+  background: url(../img/reporting/sorting-arrow.svg) no-repeat center right 15px;
+  background-size: 4px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable thead th:nth-child(2) {
+  width: 200px !important;
+  padding-left: 62px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children) td:last-child, .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children) td:nth-last-child(2), .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children) td:first-child {
+  display: none !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children) td {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #6B6F72;
+  padding: 22px 20px;
+  vertical-align: middle;
+  display: table-cell !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children) td .course-name {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-column-gap: 20px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children) td .course-name .expand {
+  margin-right: 27px;
+  cursor: pointer;
+  background-image: url(../img/reporting/expand.svg);
+  background-size: 20px;
+  width: 25px;
+  height: 34px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children) td .reporting-table-see-details {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #5D53C0;
+  text-align: left;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children).active td .course-name {
+  display: grid;
+  grid-template-columns: 25px 1fr;
+  grid-column-gap: 20px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr:not(.children).active td .course-name .expand {
+  background-image: url(../img/reporting/collapsed.svg);
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr.children td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 22px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr.children td .row-avg-complete {
+  border-bottom: 1px solid #E6E4F6;
+  padding-bottom: 16px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr.children td .row-avg-spent {
+  padding-top: 16px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr.children td span {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  color: #6B6F72;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable tbody tr.children td span.value {
+  font-weight: 400;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#coursesOverviewTable thead th {
+  display: table-cell !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable thead .sorting {
+  background-image: none !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable thead .sorting span {
+  background: url(../img/reporting/sorting-arrow.svg) no-repeat center right 0px;
+  background-size: 4px;
+  padding-right: 15px;
+  background-position-y: 3px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable thead th:nth-child(3) {
+  width: 160px !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable thead th:nth-child(2) {
+  width: 160px !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable thead th:nth-child(1) {
+  text-align: center;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable thead th {
+  display: table-cell !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable tbody tr:not(.children) {
+  background: #fff !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable tbody tr:not(.children) td {
+  background: #fff !important;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #6B6F72;
+  padding: 22px 20px;
+  vertical-align: middle;
+  display: table-cell !important;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable tbody tr:not(.children) td:nth-child(3), .uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable tbody tr:not(.children) td:nth-child(2) {
+  text-align: left;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-metabox .reporting-table#usersOverviewTable tbody tr:not(.children) td .reporting-table-see-details {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6B6F72;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-group-selector__label-container {
+    text-align: center;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-group-selector__select-container {
+  width: 260px;
+}
+@media only screen and (max-width : 900px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-group-selector__select-container {
+    width: 100%;
+    min-width: 200px;
+  }
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-group-selector__select-container {
+    width: 100%;
+  }
+  .uo-reporting--frontend#tincanny-reporting .reporting-group-selector__select-container select {
+    width: 100%;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer {
+  background: #FFFFFF;
+  border: 1px solid #E6E4F6;
+  border-radius: 12px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #6B6F72;
+  overflow: auto;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-metabox .reporting-dashboard-col-heading, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-metabox .reporting-dashboard-col-heading, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-metabox .reporting-dashboard-col-heading {
+  display: block;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #37394A;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-metabox a, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-metabox a, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-metabox a {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D53C0;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-metabox .reporting-user-card__email, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-metabox .reporting-user-card__email, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-metabox .reporting-user-card__email {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #6B6F72;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer#userSingleOverviewContainer, .uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer#userSingleCourseProgressSummaryContainer, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer#userSingleOverviewContainer, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer#userSingleCourseProgressSummaryContainer, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer#userSingleOverviewContainer, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer#userSingleCourseProgressSummaryContainer {
+  width: calc(100% - 300px);
+  padding-left: 0px;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer#singleUserProfileContainer, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer#singleUserProfileContainer, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer#singleUserProfileContainer {
+  margin-right: 25px;
+  max-height: 130px;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-datatable__table, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-datatable__table, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-datatable__table {
+  border: none;
+  background: none;
+  margin-top: 0px;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-datatable__table #userSingleOverviewTable, .uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-datatable__table #userSingleOverviewTable, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-datatable__table #userSingleOverviewTable, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable {
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-datatable__table #userSingleOverviewTable thead, .uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable thead, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-datatable__table #userSingleOverviewTable thead, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable thead, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-datatable__table #userSingleOverviewTable thead, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable thead {
+  background: none;
+}
+.uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-datatable__table #userSingleOverviewTable thead th, .uo-reporting--frontend#tincanny-reporting #singleUserProfileContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable thead th, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-datatable__table #userSingleOverviewTable thead th, .uo-reporting--frontend#tincanny-reporting #userSingleOverviewContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable thead th, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-datatable__table #userSingleOverviewTable thead th, .uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressSummaryContainer .reporting-datatable__table #userSingleCourseProgressSummaryTable thead th {
+  background: none;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6B6F72;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper .reporting-datatable__search {
+  flex: 1;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label {
+  display: flex;
+  align-items: center;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label:before {
+  text-align: left;
+  flex: 1;
+  content: "User’s Course List";
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #37394A;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper .reporting-datatable__search .dataTables_filter label input[type=search] {
+  width: 340px;
+  max-width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E7E9EE;
+  border-radius: 10px;
+  background-size: 24px;
+  background-image: url(../img/reporting/search.svg);
+  background-position: left 10px center;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  height: 44px;
+  justify-content: flex-start;
+  color: #000000;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper .reporting-datatable-top__middle {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper td {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B6F72;
+  vertical-align: middle;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCoursesOverviewTable_wrapper td .reporting-table-see-details {
+  color: #5D53C0;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div {
+  background: #FFFFFF;
+  border: 1px solid #E6E4F6;
+  border-radius: 12px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .reporting-dashboard-col-heading {
+  display: block;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #37394A;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6B6F72;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__search {
+  flex: 1;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__search .dataTables_filter label {
+  display: flex;
+  align-items: center;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__search .dataTables_filter label input[type=search] {
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #E7E9EE;
+  border-radius: 10px;
+  background-size: 24px;
+  background-image: url(../img/reporting/search.svg);
+  background-position: left 10px center;
+  background-repeat: no-repeat;
+  padding-left: 44px;
+  height: 44px;
+  justify-content: flex-start;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable-top__middle {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__table {
+  border-radius: 0px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__table thead {
+  background: none;
+}
+@media only screen and (max-width : 480px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__table thead th {
+    display: table-cell !important;
+    background-position: 97% 22px;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__table td {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B6F72;
+  background: #fff;
+  vertical-align: middle;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__table td .reporting-table-see-details {
+  color: #5D53C0;
+}
+@media only screen and (max-width : 480px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-user-course-overview__content > div .dataTables_wrapper .reporting-datatable__table td {
+    display: table-cell !important;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressMenuContainer .reporting-single-course-progress-tabs {
+  background: none;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressMenuContainer .reporting-single-course-progress-tabs .reporting-single-course-progress-tabs__item {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #37394A;
+  background: #FFFFFF;
+  border: 1px solid #E6E4F6;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.uo-reporting--frontend#tincanny-reporting #userSingleCourseProgressMenuContainer .reporting-single-course-progress-tabs .reporting-single-course-progress-tabs__item.reporting-single-course-progress-tabs__item--selected {
+  border: 1px solid #5D53C0;
+  box-shadow: none;
+  color: #5D53C0;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters {
+  background: #FFFFFF;
+  border: 1px solid #E6E4F6;
+  border-radius: 10px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-metabox .reporting-dashboard-col-heading,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-metabox .reporting-dashboard-col-heading {
+  display: block;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #37394A;
+  padding: 18px 20px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-metabox a,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-metabox a {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D53C0;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters input[type=radio],
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters input[type=radio] {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters input[type=radio]:after,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters input[type=radio]:after {
+  content: " ";
+  width: 18px;
+  height: 18px;
+  background-image: url(../img/reporting/radio-unchecked.svg);
+  position: absolute;
+  z-index: 1;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters input[type=radio]:checked:after,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters input[type=radio]:checked:after {
+  background-image: url(../img/reporting/radio-checked.svg);
+  z-index: 2;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-tincan-section__title,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-tincan-section__title {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #37394A;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-tincan-section__field label,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-tincan-section__field label {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #6B6F72;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-tincan-section__field,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-tincan-section__field {
+  margin-bottom: 20px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-tincan-footer,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-tincan-footer {
+  margin-top: 30px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-tincan-footer .button-primary,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-tincan-footer .button-primary {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 10px;
+  gap: 10px;
+  width: 160px;
+  height: 44px;
+  background: #B0D178;
+  border-radius: 8px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .reporting-tincan-filters .reporting-tincan-footer a,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .reporting-tincan-filters .reporting-tincan-footer a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 10px;
+  gap: 10px;
+  width: 160px;
+  height: 44px;
+  border: 1px solid #5D53C0;
+  border-radius: 8px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5D53C0;
+  margin-left: 10px;
+  background: none;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns-field:checked ~ .tclr-dataTables-filter-columns__fields,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns-field:checked ~ .tclr-dataTables-filter-columns__fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns-field:checked ~ .tclr-dataTables-filter-columns__fields label,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns-field:checked ~ .tclr-dataTables-filter-columns__fields label {
+    font-size: 12px !important;
+    margin-right: 0px !important;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns {
+  margin-top: 20px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns label,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns label {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5D53C0;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  color: #37394A;
+  display: inline-flex;
+  margin-right: 15px;
+  align-items: center;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label input[type=checkbox],
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label input[type=checkbox] {
+  width: 0px;
+  height: 0px;
+  margin-right: 8px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label .checkbox-container,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label .checkbox-container {
+  margin-right: 8px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label input[type=checkbox] + .checkbox-container,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label input[type=checkbox] + .checkbox-container {
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/reporting/unchecked.svg);
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label input[type=checkbox]:checked + .checkbox-container,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tclr-dataTables-filter-columns .tclr-dataTables-filter-columns__fields label input[type=checkbox]:checked + .checkbox-container {
+  width: 16px;
+  height: 16px;
+  background-image: url(../img/reporting/checked.svg);
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper {
+  border: 1px solid #E6E4F6;
+  border-radius: 12px 12px 0px 0px;
+  overflow: auto;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table {
+  border: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table thead th, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table thead a, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table thead span,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table thead th,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table thead a,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table thead span {
+  background: #F0EFFC;
+  border: none;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 17px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000000;
+  padding: 20px 0px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table thead th,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table thead th {
+  text-align: left;
+  padding-left: 12px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table thead th:nth-child(1),
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table thead th:nth-child(1) {
+  text-align: center;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table td,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table td {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B6F72;
+  vertical-align: top;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table td a,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table td a {
+  color: #5D53C0;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .pagination-links a.tclr-reporting-button,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .pagination-links a.tclr-reporting-button {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-flex;
+  align-items: center;
+  color: #6B6F72 !important;
+  padding: 0px 9px;
+  background: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .pagination-links a.tclr-reporting-button:hover, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .pagination-links a.tclr-reporting-button:active,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .pagination-links a.tclr-reporting-button:hover,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .pagination-links a.tclr-reporting-button:active {
+  background: none;
+  border: 1px solid transparent;
+  color: #6B6F72 !important;
+  padding: 0px 9px !important;
+  box-shadow: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .pagination-links a.tclr-reporting-button.current,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .pagination-links a.tclr-reporting-button.current {
+  color: #5D53C0 !important;
+  border: 1px solid #5D53C0;
+  border-radius: 4px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can #do_tc_export_csv, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can #do_tc_export_csv_xapi,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan #do_tc_export_csv,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan #do_tc_export_csv_xapi {
+  border: 1px solid #5D53C0;
+  border-radius: 8px;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5D53C0;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom {
+  background: #FFFFFF;
+  border: 1px solid #E6E4F6;
+  border-radius: 0px 0px 12px 12px;
+  margin-bottom: 50px;
+  border-top: 0px;
+  padding: 30px 20px 110px;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom #tincan-filters-per_page,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom #tincan-filters-per_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom #tincan-filters-per_page select,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom #tincan-filters-per_page select {
+    margin-right: 10px;
+  }
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom .tablenav-pages,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom .tablenav-pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    flex-direction: column;
+  }
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom .tablenav-pages .displaying-num,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom .tablenav-pages .displaying-num {
+    margin: 10px 0px;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom #tincan-filters-export,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom #tincan-filters-export {
+  right: auto;
+  top: 50px;
+}
+@media only screen and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .tablenav.bottom #tincan-filters-export,
+  .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .tablenav.bottom #tincan-filters-export {
+    right: auto;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    top: auto;
+  }
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .table-view-list,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .table-view-list {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table td, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table th,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table td,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table th {
+  min-width: 160px;
+  display: table-cell !important;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table td.dtr-control, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table th.dtr-control,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table td.dtr-control,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table th.dtr-control {
+  display: flex;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table td.dtr-control:before, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table th.dtr-control:before,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table td.dtr-control:before,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table th.dtr-control:before {
+  display: none;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table td.dtr-control a, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table th.dtr-control a,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table td.dtr-control a,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table th.dtr-control a {
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  grid-column-gap: 22px;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table td.dtr-control a:before, .uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#tin-can .dataTables_wrapper table th.dtr-control a:before,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table td.dtr-control a:before,
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting-tab-single#xapi-tincan .dataTables_wrapper table th.dtr-control a:before {
+  content: " ";
+  background-image: url(../img/reporting/tincan-td-control.svg);
+  border: none;
+  background-color: transparent !important;
+  color: transparent;
+  box-shadow: none !important;
+  width: 24px;
+  height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 20px;
+  position: relative;
+  margin-right: 22px;
+}
+.uo-reporting--frontend#tincanny-reporting .reporting-group-selector__label-container label {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+}
+.uo-reporting--frontend#tincanny-reporting .uo-admin-reporting {
+  min-height: 100vh;
+}
+@media only screen and (max-width : 768px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-datatable__buttons {
+    display: block !important;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width : 768px) and (max-width : 600px) {
+  .uo-reporting--frontend#tincanny-reporting .reporting-datatable__buttons {
+    display: flex !important;
+    width: 100%;
+  }
+}
+
+#ui-datepicker-div {
+  z-index: 2;
+  margin-left: -10px;
+}
+
+.tclr-select2 .select2-search--dropdown {
+  display: none !important;
+}
+.tclr-select2 .select2-results {
+  border: none;
+  background: none;
+}
+.tclr-select2 .select2-results ul li, .tclr-select2 .select2-results ul .select2-results__option {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-transform: capitalize !important;
+  color: #6B6F72 !important;
+}
+
+.reporting-datatable__bottom {
+  margin-top: 18px;
+}
+@media only screen and (max-width : 1024px) {
+  .reporting-datatable__bottom {
+    display: flex;
+    justify-content: center;
+  }
+}
+.reporting-datatable__bottom .dataTables_info, .reporting-datatable__bottom label, .reporting-datatable__bottom select {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #6B6F72;
+  margin: 0px;
+}
+@media only screen and (max-width : 600px) {
+  .reporting-datatable__bottom .dataTables_info, .reporting-datatable__bottom label, .reporting-datatable__bottom select {
+    font-size: 14px;
+  }
+}
+.reporting-datatable__bottom .dataTables_length {
+  margin-left: 40px;
+}
+.reporting-datatable__bottom select {
+  border: 1px solid #E6E4F6;
+  border-radius: 6px;
+  background: #fff;
+  display: flex;
+  padding: 0px 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0px 10px;
+}
+.reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  color: #6B6F72 !important;
+  padding: 0px 9px;
+  background: none;
+}
+@media only screen and (max-width : 600px) {
+  .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button {
+    font-size: 12px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+.reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button:hover, .reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button:active {
+  background: none;
+  border: 1px solid transparent;
+  color: #6B6F72 !important;
+  padding: 0px 9px !important;
+  box-shadow: none;
+}
+.reporting-datatable__bottom .reporting-datatable__bottom-right a.paginate_button.current {
+  color: #5D53C0 !important;
+  border: 1px solid #5D53C0;
+  border-radius: 4px;
+}
+
+.reporting-datatable__bottom:after {
+  display: none;
+}
+
+#wpProQuiz_user_content table.wp-list-table thead th {
+  background-color: #5D53C0 !important;
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  vertical-align: middle;
+}
+#wpProQuiz_user_content table.wp-list-table thead th:first-child:before {
+  content: "#";
+}
+#wpProQuiz_user_content table.wp-list-table tr {
+  border-bottom: 1px solid #E6E4F6;
+}
+#wpProQuiz_user_content table.wp-list-table tr td, #wpProQuiz_user_content table.wp-list-table tr th {
+  vertical-align: middle;
+}
+#wpProQuiz_user_content table.wp-list-table tr td p, #wpProQuiz_user_content table.wp-list-table tr th p {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #37394A;
+}
+#wpProQuiz_user_content table.wp-list-table tr td a, #wpProQuiz_user_content table.wp-list-table tr th a {
+  font-family: "Mikado";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #5D53C0 !important;
+}
+
+table.dataTable tbody td.dtr-control:before, table.dataTable tbody th.dtr-control:before {
+  display: none !important;
+}
+
+@media only screen and (max-width : 600px) {
+  .reporting-datatable__bottom-left {
+    flex-direction: column;
+    display: flex;
+  }
+  .reporting-datatable__bottom-left .dataTables_info {
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .reporting-datatable__bottom-left, .reporting-datatable__bottom-right {
+    margin: auto;
+  }
+  .reporting-user-overview {
+    flex-wrap: nowrap;
+    margin-top: 0px;
+  }
+  .dataTables_filter label {
+    flex-direction: column;
+  }
+  .dataTables_filter label:before {
+    margin-bottom: 10px;
+  }
+  .dataTables_wrapper .dataTables_paginate {
+    margin-bottom: 20px;
+  }
+}
+.attendance-logs-table-container {
+  overflow: auto;
+  min-height: 500px;
+}
+.attendance-logs-table-container #attendance-logs-table {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+.attendance-logs-table-container #attendance-logs-table th {
+  background: #F0EFFC;
+  text-align: center;
+  color: var(--text-dark, #37394A);
+  text-align: center;
+  font-family: Mikado;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  min-width: 190px;
+}
+.attendance-logs-table-container #attendance-logs-table td {
+  background: white;
+}
+.attendance-logs-table-container #attendance-logs-table td.status {
+  text-align: center;
+}
+.attendance-logs-table-container #attendance-logs-table .th-students, .attendance-logs-table-container #attendance-logs-table .avatar-container {
+  border-right: 2px solid #E6E4F6;
+  text-align: left;
+  min-width: 240px;
+}
+.attendance-logs-table-container #attendance-logs-table .th-students .student-sub-filter .dropdown-container, .attendance-logs-table-container #attendance-logs-table .avatar-container .student-sub-filter .dropdown-container {
+  margin-left: 0px;
+}
+.attendance-logs-table-container #attendance-logs-table .avatar-container .avatar {
+  display: flex;
+}
+.attendance-logs-table-container #attendance-logs-table .avatar-container .avatar img {
+  max-width: 40px;
+  border-radius: 35.556px;
+  border: 2px solid #e7e5f6;
+  margin-right: 10px;
+  height: 40px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -o-object-position: bottom;
+  object-position: bottom;
+}
+.attendance-logs-table-container #attendance-logs-table .avatar-container .avatar .name {
+  color: var(--text-dark, #37394A);
+  font-family: Mikado;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 4px;
+}
+.attendance-logs-table-container #attendance-logs-table .avatar-container .avatar .text {
+  color: var(--text-body, #6B6F72);
+  font-family: Mikado;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+}
+.attendance-logs-table-container #attendance-logs-table th:first-child, .attendance-logs-table-container #attendance-logs-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+}
+.attendance-logs-table-container #attendance-logs-table.dropdown-active th:first-child, .attendance-logs-table-container #attendance-logs-table.dropdown-active td:first-child {
+  position: inherit;
+}
+.attendance-logs-table-container .dropdown {
+  max-height: 25rem;
+}
+.attendance-logs-table-container #practice-logs-table_processing {
+  position: absolute;
+  top: 40px;
+}/*# sourceMappingURL=reports.css.map */

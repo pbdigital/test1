@@ -1,0 +1,16 @@
+body{
+    &.page-template-no-access{
+        h1{
+            font-family: 'Mikado';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 100px;
+            line-height: 120px;
+            text-align: center;
+            color: #5D53C0;
+        }
+        .main-content{
+            background-image:url("../img/no-access-bg.svg");
+        }
+    }
+}

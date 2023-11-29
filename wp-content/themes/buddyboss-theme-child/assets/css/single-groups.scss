@@ -1,0 +1,432 @@
+$medium: "only screen and (max-width : 1024px)";
+$tabletlarge: "only screen and (max-width : 900px)";
+$tablet: "only screen and (max-width : 768px)";
+$mobilelarge: "only screen and (max-width : 600px)";
+$mobile: "only screen and (max-width : 480px)";
+$mobilesmall: "only screen and (max-width : 375px)";
+$small: "only screen and (max-width : 320px)";
+
+body{
+    &.single-item.groups{
+        .bb-view-profile.bb-action-popup{
+          
+            .slick-slider{
+                
+                .slick-arrow{
+                    margin:0px;
+                    padding:0px;
+                    background:none;
+                    border:none;
+                    &.slick-next{
+                        position: absolute;
+                        right: -60px;
+                        top: 35px;
+                        z-index: 1;
+                        width: 40px;
+                        left: auto;
+                        @media #{$medium} {
+                            right: -15px;
+                        }
+                    }
+                    &.slick-prev{
+                        position: absolute;
+                        left: -60px;
+                        top: 35px;
+                        z-index: 1;
+                        width: 40px;
+                        right: auto;
+
+                        @media #{$medium} {
+                            left: -15px;
+                        }
+                    }
+                }
+            }
+
+            .profile{
+                &-quranic_animal_list{
+                    div.item {
+                        width: 100px !important;
+                        height: 110px;
+                        position: relative;
+                        background: #F8F7FF;
+                        border-radius: 20px;
+                        margin-right: 20px;
+                        display: flex !important;
+                        align-items: center;
+                        justify-content: center;
+
+                        @media #{$medium} {
+                            width: 106px !important;
+                        }
+                        @media #{$mobile} {
+                            width: 101px !important;
+                        }
+
+                        
+
+                    }
+                    
+                }
+
+            }
+
+            .badges-earned{
+                &__list{
+                    .slick-slide{
+                        div {
+                            margin-right:37px;
+                            @media #{$mobile} {
+                                margin-right:30px;
+                            }
+                            img{
+                                width:auto !important;
+                                height:93px !important;
+                            }
+                        }
+                    }
+                }
+
+                &.badges-earned-0{
+                    display:none
+                }
+            }
+
+            .achievment-heading{
+                display: flex;
+                h5{
+                    flex:1
+                }
+                .achievement-count{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-align: right;
+                    color: #5D53C0;
+                }
+            }
+            
+        }
+
+        .qa-earned-0{
+            display:none;
+        }
+
+       
+        .qa-description-popup, .badge-description-popup{
+            max-width: 480px;
+            min-height: 180px;
+            width:100%;
+            height: 200px;
+            padding:30px !important;
+            background: #FFFFFF;
+            border: 1px solid #E7E9EE;
+            box-shadow: 0px 10px 20px #E5E9EF;
+            border-radius: 16px;
+            grid-template-columns: 95px 1fr;
+            grid-column-gap: 32px;
+            margin-top:60px;
+            
+            &:after{
+                content: " " !important;
+                width: 23px !important;
+                height: 23px !important;
+                transform: rotate(45deg) !important;
+                top: 48px;
+                position: absolute;
+                left: 48% !important;
+                background: #fff !important;
+                border: 1px solid #E7E9EE;
+                border-right: none;
+                border-bottom: none;
+            }
+
+            &.badges{
+                margin-top:30px;
+                &:after{
+                    top:18px;
+                }
+            }
+
+            .qa-image{
+                img{
+                    max-height: 120px;
+                    height: auto;
+                    width: 100%;
+                }
+            }
+            .qa-details, .badge-details{
+                .qa-title, .badge-title{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    color: #5D53C0;
+                    margin-bottom: 10px;
+                }
+                .qa-description, .badge-description{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #37394A;
+                    text-align: left;
+                }
+            }
+            &.active{
+                display: grid;
+               
+            }
+        }
+
+        .badge-description-popup{
+            top:990px
+        }
+
+        .bb-bp-group-title{
+            font-family: 'Mikado';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 28px;
+            line-height: 24px;
+            color: #37394A;
+        }
+
+        .activity-update-form #whats-new p{
+            font-family: 'Mikado';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+        }
+
+        .bb-view-profile{
+            .bb-model-header{
+                background:none !important;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 0px;
+                margin-bottom: -30px;
+                position: relative;
+                z-index: 1;
+                border-bottom: 0px;
+                h4{
+                    background: #F2A952;
+                    border-radius: 10px;
+                    padding:14px 29px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 500 !important;
+                    font-size: 24px !important;
+                    line-height: 31px !important;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+
+            .bb-action-popup-content{
+                border-radius:16px !important
+            }
+
+            a.bb-close-view-profile.bb-model-close-button{
+                position: absolute;
+                right: 26px;
+                top: 61px;
+                color: #000;
+                svg{
+                    path{
+                        stroke: #BFBFBF;
+                    }
+                }
+                
+            }
+        }
+
+        #group-members-search{
+            color:#000;
+        }
+        .main-navs{
+            .sub-menu{
+                margin-top:10px !important;
+                li{
+                    margin-top:10px !important
+                }
+            }
+        }
+
+        .leaderboard-ranking__list{
+            .leaderboard-ranking__row {
+                .leaderboard-ranking__rank{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 24px;
+                    text-align: center;
+                    color: #37394A;
+                }
+                .leaderboard-ranking__student{
+                    span{
+                        font-family: 'Mikado';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #37394A;
+                    }
+                }
+            }
+        }
+
+        .filter-menu.practices-filter.active{
+            z-index: 99999999;
+        }
+
+        
+    }
+
+    &.single-item{
+        .groups-dir-list{
+            .item-entry{
+                .list-wrap{
+                    .bs-group-cover{
+                        margin: 0px -20px -40px -20px;
+                        border-radius: 7px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media #{$mobilesmall} {
+        .bp-ac-form-cotainer{
+            input[type="submit"]{
+                width:160px !important;
+            }
+            .ac-reply-cancel{
+                color: #b0d178 !important;
+                background: #FFFFFF !important;
+                border: 1px solid #b0d178 !important;
+                display: block !important;
+                width: 161px !important;
+                height: 40px;
+                border-radius: 10px;
+                margin-top: 10px !important;
+                margin-left: 10px !important;
+            }
+        }
+        .activity-update-form{
+            .whats-new-form-footer{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-top:10px;
+            }
+        }
+
+        .leaderboard-top__filter{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            a{
+                width: calc(100% - 40px) !important;
+                margin: 0px !important;
+                left: auto !important;
+                right: auto  !important;
+                margin-bottom: 10px !important;
+                max-width: 100% !important;
+            }
+        }
+    }
+
+    .grid-filters{
+        display:none !important
+    }
+
+    &.bb-template-v2 nav#object-nav>ul>.selected>a{
+        background: #5d53c0;
+        color: #fff;
+    }
+
+    .quranic-animal-popup-container{
+        position:fixed;
+        display: none;
+        border: 1px solid red;
+        padding:30px 300px;
+        &.active{
+            display: block;
+        }
+    }
+    .bb-action-popup-content{
+        background:#fff !important;
+        padding:0px !important
+    }
+
+    .jBox-wrapper{
+        z-index: 9999999999 !important;
+    }
+    .item{
+        .qa-description-popup-content{
+            display: none;;
+        }
+    }
+
+    .bb-leave-group-content{
+        padding:10px 30px !important;
+    }
+
+    .activity-comments, .activity-header{
+        .is-teacher-reply{
+            position: absolute;
+            right: 33px;
+            top: -8px;
+            display: inline-flex;
+            padding: 8px 16px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 100px;
+            background: var(--brand-purple, #9885F7);
+            color: var(--text-white, #FFF);
+            font-family: Mikado;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        &.activity-header{
+            position: relative;
+            .is-teacher-reply{
+                position: absolute;
+                right: -15px;
+                top: -20px;
+            }
+        }
+    }
+
+    .bp-groups-tab.custom-manage-classrooms{
+        a{
+            min-width: 17px !important;
+            border: none !important;
+            text-align: left !important;
+            padding-left: 0px !important;
+            justify-content: flex-start !important;
+            &:hover{
+                background:none !important;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,426 @@
+.page-template-quranic-animals #main .top {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-template-quranic-animals #main .top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.page-template-quranic-animals #main .top .left h1 {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 32px;
+  color: #37394A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 8px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-template-quranic-animals #main .top .left h1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .page-template-quranic-animals #main .top .left h1 {
+    font-size: 26px;
+  }
+}
+
+.page-template-quranic-animals #main .top .left h1 span {
+  border: 1px solid #5D53C0;
+  border-radius: 100px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5D53C0;
+  padding: 0px 9px;
+  margin-left: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.page-template-quranic-animals #main .top .left p {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6B6F72;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-template-quranic-animals #main .top .left p {
+    text-align: center;
+    margin: 20px 0px;
+  }
+}
+
+.page-template-quranic-animals #main .top .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-template-quranic-animals #main .top .right .button-practice-now {
+  background: #B0D178;
+  border-radius: 100px;
+  padding: 12px 37px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .page-template-quranic-animals #main .top .right .button-practice-now {
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+}
+
+.page-template-quranic-animals #main .quranic-animals-container {
+  margin-bottom: 100px;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .page-template-quranic-animals #main .quranic-animals-container .items {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .page-template-quranic-animals #main .quranic-animals-container .items {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .page-template-quranic-animals #main .quranic-animals-container .items {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 220px;
+  background: #FFFFFF;
+  border-radius: 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item .num {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #E7E5F6;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item img {
+  max-width: 120px;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item img.skeleton-loader {
+  background: none !important;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item .title {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #37394A;
+  margin-top: 16px;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item .excerpt {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #37394A;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: none;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item.unlocked:hover {
+  border: 2px solid #5D53C0;
+  -webkit-box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.15);
+          box-shadow: 0px 25px 50px rgba(93, 83, 192, 0.15);
+  border-radius: 20px;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item.unlocked:hover img {
+  max-width: 60px;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item.unlocked:hover .title {
+  font-family: 'Mikado';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #5D53C0;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.page-template-quranic-animals #main .quranic-animals-container .items .item.unlocked:hover .excerpt {
+  display: block;
+}
+
+.page-template-quranic-animals .page-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px 0px;
+}
+
+.page-template-quranic-animals .page-heading .right b {
+  color: var(--text-dark, #37394A);
+  text-align: right;
+  font-family: Mikado;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 120% */
+  margin-right: 10px;
+}
+
+.page-template-quranic-animals .page-heading .right span {
+  color: var(--brand-green, #98C03D);
+  font-family: Mikado;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.page-template-quranic-animals .page-heading .select-student {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page-template-quranic-animals .page-heading .select-student .text {
+  color: #37394A;
+  font-family: Mikado;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 100% */
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container {
+  cursor: pointer;
+  position: relative;
+  min-width: 252px;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .selected {
+  border-radius: 10px;
+  border: 1px solid var(--text-border, #E7E9EE);
+  background: var(--text-white, #FFF);
+  height: 44px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-left: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .selected svg {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .dropdown {
+  display: none;
+  position: absolute;
+  width: calc(100% - 12px);
+  padding: 0px 20px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  border-radius: 12px;
+  border: 1px solid var(--accent-text-border-2, #E6E4F6);
+  background: var(--accent-text-white, #FFF);
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+  top: 52px;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .dropdown .items {
+  width: 100%;
+  position: relative;
+  z-index: 10;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .dropdown .items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 16px 0px;
+  border-bottom: 1px solid #E6E4F6;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .dropdown .items .item:last-child {
+  border-bottom: none;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .dropdown.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container .dropdown .overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 5;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container img.avatar {
+  max-width: 28px;
+  border-radius: 35.556px;
+  border: 2px solid #e7e5f6;
+  margin-right: 10px;
+  height: 28px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: bottom;
+     object-position: bottom;
+}
+
+.page-template-quranic-animals .page-heading .select-student .students-dropdown-container span.student-name {
+  color: var(--accent-text-dark, #37394A);
+  font-family: Mikado;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* 150% */
+  text-transform: capitalize;
+}
+
+.page-template-quranic-animals .page-heading .achievement-count {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+}
+/*# sourceMappingURL=quranic-animals.css.map */

@@ -1,0 +1,717 @@
+
+$medium: "only screen and (max-width : 1024px)";
+$tabletlarge: "only screen and (max-width : 900px)";
+$tablet: "only screen and (max-width : 768px)";
+$mobilelarge: "only screen and (max-width : 600px)";
+$mobile: "only screen and (max-width : 480px)";
+$mobilesmall: "only screen and (max-width : 375px)";
+$small: "only screen and (max-width : 320px)";
+
+.page-template-achievements{
+    .nav-tabs{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top:40px;
+        a{
+            color: #5D53C0;
+            text-align: center;
+            font-family: Mikado;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 20px;
+            padding:12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &.active{
+                color:#ffffff;
+                border: 1px solid var(--brand-purple, #5D53C0);
+                background: var(--brand-purple, #5D53C0);
+            }
+            &.achievements{
+                border-radius: 8px 0px 0px 8px;
+                border: 1px solid var(--brand-purple, #5D53C0);
+            }
+            &.class-points{
+                border-radius: 0px 8px 8px 0px;
+                border: 1px solid var(--brand-purple, #5D53C0);
+            }
+        }
+    }
+    .achievements-container{
+        max-width: 1080px;
+        margin:auto;
+        display: none;
+        &.active{
+            display: block;
+        }
+        .page-heading{
+            h1{
+                margin-top:40px;
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 32px;
+                line-height: 32px;
+                color: #37394A;
+                margin-bottom:30px;
+                flex:1;
+            }
+            .achievement-count{
+                font-family: 'Mikado';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 32px;
+                text-align: right;
+                color: #5D53C0;
+            }
+        }
+        .tab-container{
+            .tab-heading{
+                border-bottom:1px solid #E6E4F6;
+                display: flex;
+                a{
+                    font-family: 'Mikado';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #37394A;
+                    padding-bottom:17px;
+                    margin-right:40px;
+                    &.active{
+                        border-bottom:3px solid #5D53C0;
+                        color: #5D53C0;
+                    }
+                }
+            }
+            .tab-content{
+                margin-bottom:160px;
+                margin-top:40px;
+                .items{
+                    display:grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-column-gap:40px;
+                    grid-row-gap:40px;
+
+                    @media #{$mobilelarge}{
+                        grid-template-columns: 1fr;
+                    }
+
+                    .item{
+                        background: #FFFFFF;
+                        border-radius: 20px;
+                        padding:20px;
+
+                        display:grid;
+                        grid-template-columns: 120px 1fr;
+                        grid-column-gap:17px;
+
+                        @media #{$mobilelarge}{
+                            grid-template-columns: 1fr;
+                        }
+
+                        .image{
+                            position: relative;
+                            @media #{$mobilelarge}{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                padding:30px 0px;
+                            }
+
+                            .total{
+                                width:36px;
+                                height:36px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                position: absolute;
+                                top: 84px;
+                                right: 8px;
+                                border-radius:36px;
+                                font-family: 'Mikado';
+                                font-style: normal;
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 24px;
+                                text-align: center;
+                                text-transform: uppercase;
+                                color: #FFFFFF;
+                                z-index: 1;
+                            }
+                            &:after{
+                                content: " ";
+                                width: 36px;
+                                height: 36px;
+                                opacity: 1;
+                                background: #ffffff;
+                                z-index: 0;
+                                position: absolute;
+                                top: 84px;
+                                right: 8px;
+                                border-radius: 36px;
+                            }
+
+                        }
+
+                        &.hide-total{
+                            .image{
+                                .total{
+                                    display:none;
+                                }
+                                &:after{
+                                    display:none;
+                                }
+                            }
+                        }
+
+                        &.inprogress{
+                            .image{
+                                img{
+                                    opacity: .5;
+                                }
+                                .total{
+                                    opacity:.5;
+                                }
+                                @media #{$mobilelarge}{
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding:30px 0px;
+                                }
+                            }
+                        }
+
+                        &.notstarted{
+                            .image{
+                                .total{
+                                    background:#E7E9EE !important;
+                                }
+                            }
+
+                            .details{
+                                .custom-award{
+                                    color: #AEA9E0 !important;
+                                }
+                            }
+                        }
+
+                        .details{
+                            .header{
+                                display:flex;
+                                .title{
+                                    flex:1;
+                                    font-family: 'Mikado';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    line-height: 32px;
+                                    text-transform: capitalize;
+                                    color: #37394A;
+                                }
+                                .progress{
+                                    font-family: 'Mikado';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 32px;
+                                    text-align: right;
+                                    color: #AEA9E0;
+                                }
+                            }
+                            .progress-bar{
+                                background: #F1F2F5;
+                                border-radius: 100px;
+                                height:10px;
+                                width:100%;
+                                position: relative;
+                                margin:13px 0px;
+                                .progress-bar-inner{
+                                    background: #5D53C0;
+                                    border-radius: 100px;
+                                    left:0px;
+                                    position:absolute;
+                                    height:10px;
+                                }
+                            }
+                            .description{
+                                font-family: 'Mikado';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #6B6F72;
+                                margin-top:10px;
+                                @media #{$mobilelarge}{
+                                    text-align:center;
+                                }
+                            }
+                            .custom-award{
+                                font-family: 'Mikado';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 24px;
+                                color: #5D53C0;
+                                display: flex;
+                                margin-top:10px;
+                                .target-streak{
+                                    text-align: right;
+                                    flex:1;
+                                }
+                                .num{
+                                    font-weight: 700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        &.class-points{
+            .top{
+                margin-bottom:40px;
+                margin-top:40px;
+                display: flex;
+                border-bottom:1px solid #E6E4F6;
+                padding-bottom: 16px;
+                .filters{
+                    flex:1;
+                    display: flex;
+                    align-items: center;
+                    span{
+                        color: #37394A;
+                        font-family: Mikado;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px; /* 100% */
+                        margin-right:24px;
+                    }
+                    &.is-institute-parent{
+                        span{
+                            margin-right: 0px;
+                            width:160px;
+                        }
+                        .selected{
+                            padding:8px 16px !important;
+                            margin-left:10px;
+
+                        }
+                    }
+                    .filter-container{
+                        position: relative;
+                        .overlay{
+                            position: fixed;
+                            z-index: 0;
+                            left: 0px;
+                            height: 100%;
+                            width:100%;
+                            top:0px;
+                        }
+                        .selected{
+                            cursor: pointer;
+                            width:240px;
+                            border-radius: 10px;
+                            border: 1px solid var(--text-border, #E7E9EE);
+                            background: var(--text-white, #FFF);
+                            padding:12px 16px;
+                            position: relative;
+                            z-index: 1;
+                            span{
+                                color: var(--accent-text-dark, #37394A);
+                                font-family: Mikado;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px; /* 150% */
+                                text-transform: capitalize;
+                                position: relative;
+                            }
+                            svg{
+                                position: absolute;
+                                right:10px;
+                                top:17px;
+                            }
+                        }
+                        .list{
+                            display: none;
+                            &.active{
+                                display: block;
+                            }
+                            width: 240px;
+                            position: absolute;
+                            z-index: 1;
+                            bottom:-165px;
+                            padding:0px;
+                            margin:0px;
+                            border-radius: 12px;
+                            border: 1px solid var(--accent-text-border-2, #E6E4F6);
+                            background: var(--accent-text-white, #FFF);
+                            box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+                            padding:0px 20px;
+                            li{
+                                list-style: none;
+                                margin:0px;
+                                padding:0px;
+                                border-bottom:1px solid #E6E4F6;
+                                padding:16px 0px;
+                                cursor: pointer;
+                                color: var(--text-body, #6B6F72);
+                                font-family: Mikado;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                &:last-child{
+                                    border-bottom:none;
+                                }
+                            }
+                            
+                        }
+                    }
+                }
+                .points{
+                    flex:1;
+                    color: #37394A;
+                    text-align: right;
+                    font-family: Mikado;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 24px;
+                    padding-bottom:17px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: end;
+                    svg{
+                        margin-right:16px;
+                    }
+                    b{
+                        color: var(--text-dark, #37394A);
+                        text-align: right;
+                        font-family: Mikado;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 24px; /* 120% */
+                        margin-right:5px;
+                    }
+                    span{
+                        color:#98C03D
+                    }
+                }
+            }
+            .rewards-container{
+                border-bottom:1px solid #E6E4F6;
+                padding-bottom:30px;
+                margin-bottom:30px;
+               
+                .reward-group{
+                    margin-bottom:30px;
+                    .date{
+                        color: var(--text-dark, #37394A);
+                        font-family: Mikado;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 32px;
+                        text-transform: uppercase;
+                        margin-bottom:16px;
+                    }
+                    .items{
+                        .item{
+                            display:flex;
+                            padding:20px 20px 20px 30px;
+                            margin-bottom: 16px;
+                            &.positive{
+                                border-radius: 20px;
+                                border: 1px solid var(--brand-green, #98C03D);
+                                background: linear-gradient(0deg, #FAFCF5 0%, #FAFCF5 100%), #FFF;
+                                .points{
+                                    color: var(--brand-green, #98C03D);
+                                }
+                            }
+                            &.needs-work{
+                                border-radius: 20px;
+                                border: 1px solid var(--accent-red, #EF746F);
+                                background: linear-gradient(0deg, #FEF8F8 0%, #FEF8F8 100%), #FFF;
+                                .points{
+                                    color: var(--brand-green, #EF746F);
+                                }
+                            }
+                            .points{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                text-align: right;
+                                font-family: Mikado;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 32px;
+                                text-transform: capitalize;
+                            }
+                            .details{
+                                flex:1;
+                                .title{
+                                    color: var(--text-dark, #37394A);
+                                    font-family: Mikado;
+                                    font-size: 20px;
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    line-height: 32px;
+                                    text-transform: capitalize;
+                                }
+                                .teacher-classroom{
+                                    display: flex;
+                                    color: var(--text-dark, #37394A);
+                                    font-family: Mikado;
+                                    font-size: 14px;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    line-height: 32px;
+                                    text-transform: capitalize;
+                                    align-items: center;
+                                    img{
+                                        margin-right: 10px;
+                                        max-width: 28px;
+                                    }
+                                    svg{
+                                        margin:0px 10px;
+                                    }
+                                }
+                            }
+                            .teacher-classroom{
+                                display: flex;
+                                max-width: 345px;
+                                width:100%;
+                                .avatar{
+                                    img{
+                                        max-width: 50px;
+                                        margin-right: 14px;
+                                    }
+                                }
+                                .name{
+                                    .teacher{
+                                        color: var(--text-dark, #37394A);
+                                        font-family: Mikado;
+                                        font-size: 20px;
+                                        font-style: normal;
+                                        font-weight: 500;
+                                        line-height: 32px;
+                                        text-transform: capitalize;
+                                    }
+                                    .classroom{
+                                        color: var(--text-body, #6B6F72);
+                                        font-family: Mikado;
+                                        font-size: 16px;
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        line-height: 24px;
+                                    }
+                                }
+                            }
+                            .points{
+                                max-width: 60px;
+                                width: 100%;
+                            }
+                            .image{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin-right: 20px;
+                                img{
+                                    max-width: 60px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .pagination-container{
+                display: flex;
+                align-items: center;
+                margin-bottom:40px;
+                > div{
+                    flex:1;
+                    &.left{
+                        color: var(--accent-text-body, #6B6F72);
+                        font-family: Mikado;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 22px;
+                        display: flex;
+                        align-items: center;
+                        .showing{
+                            margin-right: 40;
+                        }
+                        .entries{
+                            margin-left:40px;
+                            select{
+                                width: 40px;
+                                height: 40px;
+                                margin: 0px 10px;
+                                padding:0px 10px;
+                                background:none;
+                            }
+                        }
+                    }
+                    &.right{
+                        justify-content: right;
+                        align-items: center;
+                        display: flex;
+                        .pages{
+                            display: flex;
+                            button{
+                                display: flex;
+                                width: 24px;
+                                padding: 0px 10px;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10px;
+                                border-radius: 4px;
+                                border: 1px solid var(--brand-purple, #5D53C0);
+                                margin: 0px 2px;
+                                background:transparent;
+                                color:#5D53C0;
+                                &.active{
+                                    background:#5D53C0;
+                                    color:#fff;
+                                }
+                            }
+                        }
+                        .prev{
+                            margin-right:20px
+                        }
+                        .next{
+                            margin-left:20px;
+                        }
+                        .prev,.next{
+                            color: #6B6F72;
+                            font-family: Mikado;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 22px;
+                            background:none;
+                            padding:0px;
+                            border:none;
+                            display: flex;
+                            &:disabled{
+                                color:#BFBFBF;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .page-heading{
+        display: flex;
+        margin:30px 0px;
+        .select-student{
+            display: flex;
+            align-items: center;
+            .text{
+                color: #37394A;
+                font-family: Mikado;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 100% */
+            }
+            .students-dropdown-container{
+                cursor:pointer;
+                position: relative;
+                min-width: 252px;
+                .selected{
+                    border-radius: 10px;
+                    border: 1px solid var(--text-border, #E7E9EE);
+                    background: var(--text-white, #FFF);
+                    height: 44px;
+                    flex-shrink: 0;
+                    margin-left:12px;
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                    padding: 12px;
+                    svg{
+                        position: absolute;
+                        right:12px;
+                        top:12px;
+                    }
+                }
+                .dropdown{
+                    display: none;
+                    position: absolute;
+                    width: calc(100% - 12px);
+                    padding: 0px 20px;
+                    align-items: flex-start;
+                    gap: 10px;
+                    border-radius: 12px;
+                    border: 1px solid var(--accent-text-border-2, #E6E4F6);
+                    background: var(--accent-text-white, #FFF);
+                    box-shadow: 0px 10px 20px 0px rgba(93, 83, 192, 0.05);
+                    top:52px;
+                    .items{
+                        width: 100%;
+                        position: relative;
+                        z-index: 10;
+                        .item{
+                            display: flex;
+                            padding:16px 0px;
+                            border-bottom:1px solid #E6E4F6;
+                            &:last-child{
+                                border-bottom:none;
+                            }
+                        }
+                    }
+                    &.active{
+                        display: flex;
+                    }
+                    .overlay{
+                        position: fixed;
+                        top:0px;
+                        left:0px;
+                        width:100%;
+                        height:100%;
+                        opacity: 0;
+                        z-index: 5;
+                    }
+                }
+                img.avatar{
+                    max-width: 28px;
+                    border-radius: 35.556px;
+                    border: 2px solid #e7e5f6;
+                    margin-right: 10px;
+                    height: 28px;
+                    object-fit: cover;
+                    object-position: bottom;
+                }
+                span.student-name{
+                    color: var(--accent-text-dark, #37394A);
+                    font-family: Mikado;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 150% */
+                    text-transform: capitalize;
+                }
+            }
+        }
+        .achievement-count{
+            flex:1;
+            align-items: end;
+        }
+    }
+}

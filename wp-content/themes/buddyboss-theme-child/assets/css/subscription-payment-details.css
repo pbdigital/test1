@@ -1,0 +1,246 @@
+#add-payment-details-popup .modal-content, #payment-details-updated .modal-content {
+  max-width: 600px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 24px;
+  background: var(--brand-purple, #5D53C0);
+  -webkit-box-shadow: 0px 25px 50px 0px rgba(93, 83, 192, 0.05);
+          box-shadow: 0px 25px 50px 0px rgba(93, 83, 192, 0.05);
+}
+
+#add-payment-details-popup .modal-content .close, #payment-details-updated .modal-content .close {
+  width: 50px;
+  height: 50px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  border-radius: 50px;
+  background: var(--brand-green, #98C03D);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -15px;
+  opacity: 1;
+  right: -15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#add-payment-details-popup .modal-content .main-content .image, #payment-details-updated .modal-content .main-content .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#add-payment-details-popup .modal-content .main-content h2, #payment-details-updated .modal-content .main-content h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: var(--text-white, #FFF);
+  text-align: center;
+  font-size: 32px;
+  font-family: Mikado;
+  font-weight: 700;
+  line-height: 150%;
+  margin-top: 40px;
+}
+
+#add-payment-details-popup .modal-content .main-content p, #payment-details-updated .modal-content .main-content p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: var(--text-white, #FFF);
+  text-align: center;
+  font-size: 18px;
+  font-family: Mikado;
+  line-height: 150%;
+  margin-bottom: 40px;
+}
+
+#add-payment-details-popup .modal-content .main-content button, #add-payment-details-popup .modal-content .main-content .button, #payment-details-updated .modal-content .main-content button, #payment-details-updated .modal-content .main-content .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 360px;
+  padding: 20px 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  color: var(--text-white, #FFF);
+  font-size: 20px;
+  font-family: Mikado;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  border-radius: 100px;
+  background: var(--brand-green, #98C03D);
+  margin: auto;
+}
+
+.add-payment-header {
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid var(--brand-orange, #E7AC61);
+  background: #FDF7EF;
+  padding: 20px;
+  margin-top: 42px;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 40px;
+}
+
+.add-payment-header .close {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.add-payment-header .main-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25px 1fr 240px;
+      grid-template-columns: 25px 1fr 240px;
+  grid-column-gap: 20px;
+}
+
+.add-payment-header .main-content .details h5 {
+  color: var(--text-dark, #37394A);
+  font-size: 16px;
+  font-family: Mikado;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.add-payment-header .main-content .details > div {
+  color: var(--text-body, #6B6F72);
+  font-size: 14px;
+  font-family: Mikado;
+  line-height: 150%;
+}
+
+.add-payment-header .main-content .button-container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 240px;
+  padding: 12px 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: var(--brand-green, #98C03D);
+  color: var(--text-white, #FFF);
+  font-size: 14px;
+  font-family: Mikado;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.56px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 15px;
+}
+
+.overlay-buddyboss-notif {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: rgba(0, 0, 0, 0);
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#header-aside {
+  position: relative;
+}
+
+.buddyboss-custom-notifications {
+  position: absolute;
+  border-radius: 8px;
+  border: 1px solid var(--text-border, #E7E9EE);
+  background: #FFF;
+  padding: 20px !important;
+  top: 50px;
+  right: 0px;
+  width: 340px;
+  display: block !important;
+}
+
+.buddyboss-custom-notifications .title {
+  color: var(--text-light-text, #BFBFBF);
+  font-size: 12px;
+  font-family: Mikado;
+  line-height: 150%;
+  border-bottom: 1px #E7E9EE solid;
+  padding: 6px 0px;
+  margin-bottom: 20px;
+}
+
+.buddyboss-custom-notifications ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.buddyboss-custom-notifications ul li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+}
+
+.buddyboss-custom-notifications ul li .top {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px;
+      grid-template-columns: 1fr 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.buddyboss-custom-notifications ul li .top h5 {
+  color: var(--text-dark, #37394A);
+  font-size: 14px;
+  font-family: Mikado;
+  font-weight: 500;
+  line-height: 150%;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+.buddyboss-custom-notifications ul li .content {
+  color: var(--text-body, #6B6F72);
+  font-size: 13px;
+  font-family: Mikado;
+  line-height: 150%;
+}
+/*# sourceMappingURL=subscription-payment-details.css.map */

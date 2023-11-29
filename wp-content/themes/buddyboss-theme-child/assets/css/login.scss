@@ -1,0 +1,760 @@
+// RWD Media Queries (Breakpoints)
+$medium: "only screen and (max-width : 1024px)";
+$tabletlarge: "only screen and (max-width : 900px)";
+$tablet: "only screen and (max-width : 768px)";
+$mobilelarge: "only screen and (max-width : 600px)";
+$mobile: "only screen and (max-width : 480px)";
+$mobilesmall: "only screen and (max-width : 375px)";
+$small: "only screen and (max-width : 320px)";
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoMedium.eot");
+  src: url("../fonts/MikadoMedium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoMedium.woff2") format("woff2"), url("../fonts/MikadoMedium.woff") format("woff"),
+    url("../fonts/MikadoMedium.ttf") format("truetype"), url("../fonts/MikadoMedium.svg#MikadoMedium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoLight.eot");
+  src: url("../fonts/MikadoLight.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoLight.woff2") format("woff2"), url("../fonts/MikadoLight.woff") format("woff"),
+    url("../fonts/MikadoLight.ttf") format("truetype"), url("../fonts/MikadoLight.svg#MikadoLight") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoBlack.eot");
+  src: url("../fonts/MikadoBlack.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoBlack.woff2") format("woff2"), url("../fonts/MikadoBlack.woff") format("woff"),
+    url("../fonts/MikadoBlack.ttf") format("truetype"), url("../fonts/MikadoBlack.svg#MikadoBlack") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoBold.eot");
+  src: url("../fonts/MikadoBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoBold.woff2") format("woff2"), url("../fonts/MikadoBold.woff") format("woff"),
+    url("../fonts/MikadoBold.ttf") format("truetype"), url("../fonts/MikadoBold.svg#MikadoBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado";
+  src: url("../fonts/MikadoRegular.eot");
+  src: url("../fonts/MikadoRegular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoRegular.woff2") format("woff2"), url("../fonts/MikadoRegular.woff") format("woff"),
+    url("../fonts/MikadoRegular.ttf") format("truetype"), url("../fonts/MikadoRegular.svg#MikadoRegular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mikado Ultra";
+  src: url("../fonts/MikadoUltra.eot");
+  src: url("../fonts/MikadoUltra.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/MikadoUltra.woff2") format("woff2"), url("../fonts/MikadoUltra.woff") format("woff"),
+    url("../fonts/MikadoUltra.ttf") format("truetype"), url("../fonts/MikadoUltra.svg#MikadoUltra") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  .login-logo {
+    width: 80px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    @media #{$tablet} {
+      margin: 64px auto 20px;
+      display: block;
+      position: static;
+    }
+  }
+
+  &.login {
+    .login-split__entry {
+      padding: 0 !important;
+    }
+    .login-split {
+      // background-position: top;
+
+      .login-split__entry {
+        max-width: 480px !important;
+        margin-left: -webkit-calc((50vw - 488px)/ 2) !important;
+        margin-left: calc((50vw - 488px) / 2) !important;
+        margin-right: -webkit-calc((50vw - 488px)/ 2) !important;
+        margin-right: calc((50vw - 488px) / 2) !important;
+        padding: 0;
+
+        h1 {
+          background: #f2a952;
+          border-radius: 10px;
+          width: 250px;
+          height: 59px;
+          display: grid;
+          align-items: center;
+          justify-self: center;
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 31px;
+          text-align: center !important;
+          letter-spacing: 0.1em;
+          text-transform: uppercase;
+          color: #ffffff;
+          margin: auto;
+          position: relative;
+          z-index: 1;
+        }
+        p {
+          background: #45418e;
+          border-radius: 16px;
+          padding: 59px 40px 37px 40px;
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px !important;
+          line-height: 28px !important;
+          text-align: center;
+          color: #ffffff;
+          margin-top: -28px !important;
+          z-index: 0;
+          position: relative;
+        }
+      }
+    }
+
+    #login {
+      // background: #ffffff;
+      // border: 2px solid #e7e9ee;
+      // border-radius: 24px;
+      // right: 11% !important;
+      // max-width: 500px !important;
+      // padding: 48px !important;
+      // left: auto !important;
+      h1 {
+        img {
+          display: none;
+        }
+      }
+      .login-heading {
+        h2 {
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          text-align: center;
+          color: #37394a;
+          margin: auto;
+        }
+      }
+
+      input[type="email"],
+      input[type="password"],
+      input[type="text"] {
+        border: 1.4px solid #e7e9ee;
+        border-radius: 10px;
+        height: 60px;
+        padding-left: 16px !important;
+        font-family: "Mikado";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        &:focus {
+          box-shadow: none !important;
+          border-color: #5d53c0;
+        }
+      }
+
+      form#loginform {
+        label[for="user_login"]:before {
+          content: " ";
+          background-image: url("../img/login/user.png");
+          height: 24px;
+          width: 24px;
+          left: auto;
+          right: 14px;
+          top: 20px;
+          background-repeat: no-repeat;
+        }
+        .wp-pwd:before {
+          content: " ";
+          background-image: url("../img/login/lock.png");
+          height: 20px;
+          width: 20px;
+          left: auto;
+          right: 14px;
+          top: 20px;
+          background-repeat: no-repeat;
+        }
+        .wp-hide-pw {
+          display: none !important;
+        }
+      }
+
+      .user-pass-wrap {
+        margin-bottom: 13px !important;
+      }
+      p.submit {
+        margin-top: 50px !important;
+      }
+      p.lostmenot {
+        a {
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #5d53c0;
+        }
+      }
+      p.forgetmenot {
+        label {
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 20px;
+          color: #37394a;
+        }
+      }
+
+      .account-sign-up {
+        font-family: "Mikado", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #000000;
+        margin-top: 30px;
+        a {
+          color: #5d53c0;
+        }
+      }
+    }
+
+    .language-switcher {
+      display: none;
+    }
+
+    .button-primary,
+    .back-to-signin {
+      background-color: #b0d178 !important;
+      border: none !important;
+      border-radius: 100px !important;
+      width: 100% !important;
+      font-family: "Mikado", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px !important;
+      line-height: 20px !important;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #ffffff !important;
+      min-height: 56px !important;
+    }
+
+    .wp-generate-pw{
+      border:1px solid #b0d178 !important;
+      border-radius: 100px !important;
+      width: 100% !important;
+      font-family: "Mikado", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px !important;
+      line-height: 20px !important;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #ffffff !important;
+      min-height: 56px !important;
+      background-color:transparent !important;
+      color:#b0d178 !important;
+    }
+
+    .privacy-policy-page-link {
+      // margin: 2em 0;
+      // position: absolute;
+      // left: 0px;
+      // padding: 0;
+      // margin: 0px !important;
+      // margin-top: 165px !important;
+      margin: 30px auto !important;
+      color: #6b6f72;
+      font-family: "Mikado";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 20px;
+      a {
+        font-family: "Mikado";
+        font-style: normal;
+        font-weight: 500 !important;
+        font-size: 16px;
+        line-height: 20px;
+        color: #37394a;
+      }
+    }
+    
+  }
+
+  &.login-action-lostpassword {
+    #login {
+      p.message {
+        div {
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px !important;
+          line-height: 40px;
+          text-align: center;
+          color: #37394a;
+          @media #{$tablet} {
+            text-align: left;
+          }
+        }
+        p.message {
+          padding: 0px 40px;
+          background: none;
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: #6b6f72 !important;
+          @media #{$tablet} {
+            padding: 0;
+          }
+        }
+      }
+      p.submit {
+        margin-top: 0px !important;
+      }
+    }
+
+    .reset-password-error {
+      display: none;
+    }
+    &.lost-password-error {
+      .reset-password-error {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+        h2 {
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          text-align: center;
+          color: #37394a;
+          margin-top: 30px;
+          margin-bottom: 16px;
+        }
+        p {
+          font-family: "Mikado", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          text-align: center;
+          color: #6b6f72;
+          max-width: 360px;
+        }
+      }
+
+      p.message,
+      #login_error,
+      #lostpasswordform {
+        display: none;
+      }
+    }
+  }
+
+  &.login-action-checkemail {
+    .login-heading {
+      flex-direction: column;
+      h2 {
+        margin-top: 30px !important;
+      }
+    }
+    p.message {
+      padding: 0px;
+      background: none !important;
+      font-family: "Mikado", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #6b6f72 !important;
+      width: 305px;
+      margin: auto;
+      a {
+        color: #6b6f72 !important;
+      }
+    }
+  }
+
+  .back-to-signin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px !important;
+    max-width: 340px;
+    margin: auto;
+  }
+
+  .bs-sign-in {
+    font-family: "Mikado", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5d53c0 !important;
+  }
+}
+
+.login-split:nth-child(1) {
+  display: none !important;
+}
+
+@media (max-width: 800px) {
+  body.login {
+    background: #fff !important;
+    .login-split {
+      display: none !important;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0px 0px 30px 30px;
+      background-position: bottom;
+      height: 35vh;
+      padding-top: 3vh;
+      justify-content: flex-start !important;
+
+      .login-split__entry {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        border-radius: 0px 20px;
+        padding-top: 0px !important;
+        img {
+          position: relative;
+          left: auto;
+          top: auto;
+        }
+        h1,
+        p {
+          display: none !important;
+        }
+      }
+    }
+    &.login-action-login {
+      .login-split {
+        display: flex !important;
+      }
+      .login-split:nth-child(1) {
+        display: none !important;
+      }
+    }
+    #login {
+      // margin-top: 30px;
+      // padding-left: 10px !important;
+      // padding-right: 10px !important;
+      // width: 95% !important;
+      // padding-top: 10px !important;
+      // border: none !important;
+      .login-heading {
+        padding-top: 0px !important;
+        margin-top: 0px !important;
+      }
+      p.message p.message {
+        text-align: left;
+      }
+
+      p.forgetmenot label,
+      p.lostmenot a {
+        font-size: 14px;
+      }
+      .privacy-policy-page-link {
+        // margin-top: 0px !important;
+        // position: fixed;
+        // bottom: 10px;
+      }
+      .login-heading {
+        h2 {
+          text-align: left;
+          margin: 0px;
+        }
+      }
+    }
+
+    &.login-action-checkemail,
+    &.login-action-lostpassword.lost-password-error {
+      #login {
+        // padding-top: 24vh !important;
+      }
+    }
+  }
+}
+
+.login-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  min-height: 100vh;
+  @media #{$tablet} {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .login-welcome {
+    padding-bottom: 450px;
+    @media #{$tablet} {
+      border-radius: 0 0 40px 40px;
+    }
+    @media #{$mobilelarge} {
+      padding-bottom: 250px;
+    }
+    &__content {
+      max-width: 480px;
+      background: #45418e;
+      border-radius: 16px;
+      margin: 130px auto 0;
+      width: calc(100% - 40px);
+      position: relative;
+      padding: 59px 40px 37px;
+      text-align: center;
+      @media #{$tablet} {
+        display: none;
+      }
+      h1 {
+        background: #f2a952;
+        border-radius: 10px;
+        padding: 14px 59px;
+        font-family: "Mikado";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 31px !important;
+        text-align: center;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #ffffff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -30px;
+      }
+      p {
+        font-family: "Mikado";
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 18px !important;
+        line-height: 28px !important;
+        text-align: center !important;
+        color: #ffffff !important;
+        &:last-of-type {
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+  }
+  #login {
+    position: static !important;
+    padding: 0 !important;
+    transform: none !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    .signin-wrapper {
+      max-width: 500px;
+      width: calc(100% - 40px);
+      background: #ffffff;
+      border: 2px solid #e7e9ee;
+      border-radius: 24px;
+      margin: 140px auto 0;
+      padding: 52px 50px;
+      @media #{$tablet} {
+        padding: 50px 20px;
+        margin-top: 30px;
+        border: 0;
+        padding: 0;
+      }
+    }
+    .login-heading {
+      margin: 0 auto 30px;
+      h2 {
+        font-family: "Mikado";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #37394a;
+      }
+    }
+
+    #loginform {
+      padding: 0;
+      margin: 0 auto;
+    }
+  }
+}
+
+.login-action-lostpassword {
+  #login .signin-wrapper {
+    @media #{$tablet} {
+      margin-top: 134px;
+    }
+  }
+  #login_error,
+  .message {
+    padding: 0;
+  }
+  #login p.message div {
+    @media #{$tablet} {
+      text-align: left;
+    }
+  }
+  .login-welcome {
+    @media #{$tablet} {
+      display: none !important;
+    }
+  }
+  .bs-sign-in {
+    margin-top: 30px !important;
+  }
+  .account-sign-up {
+    display: none !important;
+  }
+  .privacy-policy-page-link {
+    @media screen and (max-width: 768px) and (min-height: 535px) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+.login-action-checkemail {
+  .login-welcome {
+    @media #{$tablet} {
+      display: none !important;
+    }
+  }
+  .account-sign-up {
+    display: none !important;
+  }
+  .login-wrapper #login .signin-wrapper {
+    @media #{$tablet} {
+      margin-top: 197px;
+      // margin-bottom: 50px;
+    }
+  }
+  .login-wrapper #login {
+    @media #{$tablet} {
+      display: flex;
+      flex-direction: column;
+      place-items: center;
+    }
+  }
+  .privacy-policy-page-link {
+    margin-top: 80px !important;
+    @media screen and (max-width: 768px) and (min-height: 535px) {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+
+}
+
+body.login-action-rp{
+  #login{
+    p.reset-pass{
+      font-family: "Mikado", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 40px;
+      text-align: center;
+      color: #37394a;
+      margin: auto;
+    }
+    .user-email-wrap, .user-pass1-wrap, .user-bs-pass2-wrap{
+      position:relative;
+      .label{
+        font-family: 'Mikado';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 40px;
+        color: #37394A;
+        margin: 0px;
+      }
+      .lock{
+        position: absolute;
+        top: 56px;
+        left: 15px;
+      }
+      input{
+        padding-left: 50px !important;
+        background: rgba(93, 83, 192, 0.08);
+      }
+      .btn-view-pwd{
+        width: 26px;
+        height: 26px;
+        background-image: url(/wp-content/themes/buddyboss-theme-child/assets/img/admin-institute-onboarding/eye.svg);
+        background-repeat: no-repeat;
+        display: block;
+        background-position: center;
+        position: absolute;
+        right:15px;
+        top:56px;
+        background-color:transparent;
+        border:none;
+        box-shadow: none;
+        &.hide-password {
+            background-image: url(/wp-content/themes/buddyboss-theme-child/assets/img/admin-institute-onboarding/eye-off.svg) !important;
+        }
+      }
+
+    }
+
+    .user-email-wrap{
+      margin-bottom: 20px;
+    }
+    .user-email-wrap input{
+      color:#6B6F72;
+    }
+
+    .pwd-indicator{
+      &.mismatch{
+        color: #ef746f;
+      }
+      &.match{
+        color:#B0D178;
+      }
+    }
+  }
+}

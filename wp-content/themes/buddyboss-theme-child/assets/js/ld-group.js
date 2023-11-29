@@ -1,0 +1,5 @@
+$ = jQuery;
+let SafarLdGroup = {}
+SafarLdGroup = {
+
+}
