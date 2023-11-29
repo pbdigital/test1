@@ -9,6 +9,9 @@ wp-content/*
 
 wp-content/plugins/*
 !wp-content/plugins/pbdigital-api
+!wp-content/plugins/h5pmods
+!wp-content/plugins/pbdigital-api
+!wp-content/plugins/tin-canny-learndash-reporting
 wp-content/plugins/pbdigital-api/avatars_cropped
 wp-content/plugins/pbdigital-api/avatars_full
 wp-content/plugins/pbdigital-api/avatars_html
